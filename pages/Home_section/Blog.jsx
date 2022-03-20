@@ -143,7 +143,7 @@ const Blog = () => {
                                             </div>
                                         </div>
                                         <div className="post-content">
-                                            <h3><a href="#">It's time football started to take cycling seriously</a></h3>
+                                            <h3><a href="#">It&apos; time football started to take cycling seriously</a></h3>
                                             <ul>
                                                 <li><a href="#"><i className="fa fa-user" /> Admin</a></li>
                                                 <li><a href="#"><i className="fa fa-comments-o" /> 09</a></li>

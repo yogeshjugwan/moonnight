@@ -61,7 +61,7 @@ const Clients = () => {
                                                 </div>
                                                 <h4>David Smith</h4>
                                                 <span>@Google CEO</span>
-                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos; standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
                                                     make a type specimen book. It has survived not only five centuries.</p>
                                             </div>
                                         </div>
@@ -72,7 +72,7 @@ const Clients = () => {
                                             </div>
                                             <h4>John Rock</h4>
                                             <span>@Facebook CEO</span>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos; standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
                                                 make a type specimen book. It has survived not only five centuries.</p></div>
                                         </div>
                                         <div className="single-feedback">
@@ -81,7 +81,7 @@ const Clients = () => {
                                             </div>
                                             <h4>Olivar Thomas</h4>
                                             <span>@Twitter CEO</span>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos; standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
                                                 make a type specimen book. It has survived not only five centuries.</p>
                                                </div>
                                         </div>
