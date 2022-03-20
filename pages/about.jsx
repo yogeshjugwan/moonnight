@@ -1,11 +1,11 @@
-import React from 'react'
-import { Carousel } from 'react-responsive-carousel';
+import React from "react"
+import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Slider from "react-slick";
-import 'slick-carousel/slick/slick.css'
-import 'slick-carousel/slick/slick-theme.css'
-import Head from 'next/head';
-import FunFactsAreaData from './Home_section/funFactsAreaData';
+import "slick-carousel/slick/slick.css"
+import "slick-carousel/slick/slick-theme.css"
+import Head from "next/head";
+import FunFactsArea from "./Home_section/FunFactsArea";
 const about = () => {
   const aboutImg = [
     {
@@ -138,7 +138,7 @@ const about = () => {
               <div className="about-content">
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos; standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos; standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
-                <p className="mb-0">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
+                <p className="mb-0">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &apos;Content here, content here&apos;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &apos;lorem ipsum&apos; will uncover many web sites still in their infancy.</p>
               </div>
             </div>
             <div className="col-lg-3 col-md-6 col-sm-6">
@@ -250,7 +250,7 @@ const about = () => {
       </section>
       {/* End Our History Area */}
       {/* Start Fun Fcats Area*/}
-      <FunFactsAreaData/>
+      <FunFactsArea/>
       {/* End Fun Fcats Area*/}
       {/* Start Partner Area */}
       <section className="partner-area ptb-80">

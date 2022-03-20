@@ -1,5 +1,4 @@
 import React from 'react'
-import Head from 'next/head'
 import Slider from "react-slick";
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
@@ -7,7 +6,7 @@ import Upcoming from './Home_section/Upcoming';
 import About from './Home_section/About';
 import Categories from './Home_section/Categories';
 import Product from './Home_section/Product';
-import FunFactsAreaData from './Home_section/funFactsAreaData';
+import FunFactsArea from './Home_section/FunFactsArea';
 import Equipment from './Home_section/Equipment';
 import SaleProduct from './Home_section/SaleProduct';
 import Blog from './Home_section/Blog';
@@ -121,7 +120,7 @@ const Home = () => {
             {/* End New Produts Area */}
 
             {/* Start fun-facts-area */}
-            <FunFactsAreaData />
+            <FunFactsArea />
             {/*End fun-facts-area */}
             {/* Start Bikes Equipment Area */}
             <Equipment />
