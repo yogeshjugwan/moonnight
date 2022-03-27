@@ -858,6 +858,7 @@ Upcoming Bike Area CSS
   text-align: right;
   margin-right: 40px;
   margin-top: 40px;
+  background: var(--bg-black) !important;
 }
 
 .upcoming-bike-text h2 {
