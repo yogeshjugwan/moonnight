@@ -1,11 +1,7 @@
 import Link from 'next/link';
 import React,{ useState } from 'react'
 
-const Navber = () => {
-  const [toggle,setToggle]= useState(false);
-  const toggleMenu=()=>{
-      setToggle(!toggle)
-  }
+const Navber = ({show,click}) => {
   return (
     <div className='sticky-top'>{/* Start Main Menu Area */}
       <div className="main-header-area header-sticky">
@@ -17,18 +13,18 @@ const Navber = () => {
               <Link className="nav-brand" href="/" passHref><img src="assets/img/logo.png" alt="logo" /></Link>
               {/* Navbar Toggler */}
               <div className="classy-navbar-toggler">
-                <span className={`navbarToggler ${toggle && "navbarToggler active"}`} 
-                onClick={()=>{toggleMenu()}}><span /><span /><span /></span>
+                <span className={`navbarToggler ${show && "navbarToggler active"}`} 
+                onClick={click}><span /><span /><span /></span>
               </div>
               {/* Menu */}
-              <div className={`classy-menu ${toggle && "classy-menu menu-on"}`}>
+              <div className={`classy-menu ${show && "classy-menu menu-on"}`}>
                 {/* close btn */}
-                <div className="classycloseIcon"  onClick={()=>{toggleMenu()}}>
+                {/* <div className="classycloseIcon"  onClick={()=>{toggleMenu()}}>
                   <div className="cross-wrap"><span className="top" /><span className="bottom" /></div>
-                </div>
+                </div> */}
                 {/* Nav Start */}
                 <div className="classynav">
-                  <ul>
+                  <ul onClick={click}>
                    <li> <Link href="/" className="active"><a>Home</a></Link></li>
                    <li> <Link href="/about"><a>about us</a></Link></li>
                    <li> <Link href="/products"><a>products</a></Link></li>

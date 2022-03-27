@@ -1,5 +1,6 @@
 import Header from '../components/Header'
 import Navbar from '../components/Navbar'
+import {useState} from 'react'
 import '../styles/globals.css'
 import '../public/assets/css/classy-nav.min.css'
 import '../public/assets/css/style.css'
@@ -14,9 +15,12 @@ import '../public/assets/css/style.css'
 import '../public/assets/css/responsive.css'
 import '../public/assets/css/color/color-default.css'
 import '../public/assets/dist/color-switcher.css'
+import '../components/backdrop.css'
 import Footer from '../components/Footer'
 import Head from 'next/head'
+import BackDrop from '../components/BackDrop'
 function MyApp({ Component, pageProps }) {
+  const [toggle,setToggle]= useState(false);
   
   return (
 
@@ -30,7 +34,8 @@ function MyApp({ Component, pageProps }) {
         <link rel="icon" href="/assets/img/favicon.ico" />
       </Head>
       <Header />
-      <Navbar/>
+      <Navbar show={toggle} click={()=>setToggle(!toggle)}/>
+      <BackDrop show={toggle} click={()=>setToggle(false)}/>
       <Component {...pageProps} />
       <Footer/>
     </>
