@@ -1,10 +1,10 @@
 import { Html, Head, Main, NextScript } from 'next/document'
+import Script from 'next/script'
 
 export default function Document() {
     return (
         <Html>
             <Head>
-                <script src="assets/js/bootstrap.min.js"></script>
                 {/* <!-- Bootstrap Min CSS --> */}
                 <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
                 {/* <!-- Animate Min CSS --> */}
@@ -34,6 +34,8 @@ export default function Document() {
             <body>
                 <Main />
                 <NextScript />
+                <Script src="assets/js/bootstrap.min.js"></Script>
+
             </body>
         </Html>
     )
