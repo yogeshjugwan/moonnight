@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react'
 import Slider from "react-slick";
 import 'slick-carousel/slick/slick.css'
@@ -55,11 +56,11 @@ const SaleProduct = () => {
                   <div className="col-lg-6 col-md-6">
                     <div className="sale-product-content">
                       <h3>Deal of the day!</h3>
-                      <h4><a href="#">2021 Marin Four Corners Touring Disc Road Bike</a></h4>
+                      <h4><a href="/products">2021 Marin Four Corners Touring Disc Road Bike</a></h4>
                       <div className="price">
                         <p><span>$1000.00</span> $850.00</p>
                       </div>
-                      <a href="#" className="btn btn-primary">Shop Now</a>
+                      <Link href="/products"><a className="btn btn-primary">Shop Now</a></Link>
                     </div>
                   </div>
                   <div className="col-lg-6 col-md-6">
@@ -76,16 +77,16 @@ const SaleProduct = () => {
                   <div className="col-lg-6 col-md-6">
                     <div className="sale-product-content">
                       <h3>Bestseller of the week</h3>
-                      <h4><a href="#">Polygon Bend RV - Gravel / Cyclocross Disc Bike</a></h4>
+                      <h4> <a href="/products">Polygon Bend RV - Gravel / Cyclocross Disc Bike</a></h4>
                       <div className="price">
                         <p><span>$1020.00</span> $900.00</p>
                       </div>
-                      <a href="#" className="btn btn-primary">Shop Now</a>
+                      <Link href="/products"><a className="btn btn-primary">Shop Now</a></Link>
                     </div>
                   </div>
                   <div className="col-lg-6 col-md-6">
                     <div className="sale-product-img">
-                      <img src="assets/img/best-seller.png" alt="best-seller" />
+                    <Link href="/products"><img src="assets/img/best-seller.png" alt="best-seller" ></img></Link>
                     </div>
                   </div>
                 </div>
@@ -97,11 +98,11 @@ const SaleProduct = () => {
                   <div className="col-lg-6 col-md-6">
                     <div className="sale-product-content">
                       <h3>Top of the week</h3>
-                      <h4><a href="#">Diamondback Bicycles 2021 Haanjo Road Bike</a></h4>
+                      <h4><a href="/products">Diamondback Bicycles 2021 Haanjo Road Bike</a></h4>
                       <div className="price">
                         <p><span>$1220.00</span> $1100.01</p>
                       </div>
-                      <a href="#" className="btn btn-primary">Shop Now</a>
+                      <Link href="/products"><a className="btn btn-primary">Shop Now</a></Link>
                     </div>
                   </div>
                   <div className="col-lg-6 col-md-6">

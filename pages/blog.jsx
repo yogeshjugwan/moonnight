@@ -21,7 +21,7 @@ const blog = () => {
                   </div>
                   <div className="col-lg-6 col-md-6">
                     <ul>
-                      <li><a href="index.html"><i className="fa fa-home" /> Home</a></li>
+                      <li><a href="/"><i className="fa fa-home" /> Home</a></li>
                       <li><i className="fa fa-angle-right" /></li>
                       <li className="active">Bags &amp; Storage</li>
                     </ul>

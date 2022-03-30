@@ -5,7 +5,7 @@ import Footer from '../components/Footer'
 import Head from 'next/head'
 import BackDrop from '../components/BackDrop'
 import Script from 'next/script'
-
+import '../components/backdrop.css'
 function MyApp({ Component, pageProps }) {
   const [toggle, setToggle] = useState(false);
 

@@ -14,23 +14,23 @@ const Header = () => {
           </div>
           <div className="col-lg-3 col-md-6 col-sm-6">
             <ul>
-              <li><a href="#" title="Facebook"><i className="fa fa-facebook" /></a></li>
-              <li><a href="#" title="Twitter"><i className="fa fa-twitter" /></a></li>
-              <li><a href="#" title="Linkedin"><i className="fa fa-linkedin" /></a></li>
-              <li><a href="#" title="Google Plus"><i className="fa fa-google-plus" /></a></li>
+              <li><a href="#" title="Facebook"><i className="fa-brands fa-facebook"></i></a></li>
+              <li><a href="#" title="Twitter"><i className="fa-brands fa-twitter"></i></a></li>
+              <li><a href="#" title="Linkedin"><i className="fa-brands fa-linkedin-in"></i></a></li>
+              <li><a href="#" title="Google Plus"><i className="fa-brands fa-google-plus-g"></i></a></li>
             </ul>
           </div>
           <div className="col-lg-3 col-md-6 col-sm-6">
             <div className="dropdown">
-              <button className="dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              {/* <button className="dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <i className="fa fa-user" />
-              </button>
+              </button> */}
               <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <a className="dropdown-item" href="#">Profile Settings</a>
                 <a className="dropdown-item" href="#">Sign Out</a>
               </div>
             </div>
-            <a href="#" className="btn btn-primary">Login/Register</a>
+            {/* <a href="#" className="btn btn-primary">Login/Register</a> */}
           </div>
         </div>
       </div>

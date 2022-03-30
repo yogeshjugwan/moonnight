@@ -30,7 +30,7 @@ const Navber = ({show,click}) => {
                    <li> <Link href="/products"><a>products</a></Link></li>
                    <li> <Link href="/blog"><a>Blog</a></Link></li>
                    <li> <Link href="/contact"><a>contact</a></Link></li>
-                    {/* <Link href="#search" className="search-btn"><i className="fa fa-search" /></Link> */}
+                   <li><Link href="/products" className="search-btn"><a><i className="fa fa-search"></i></a></Link></li>
                   </ul>
                 </div>
                 {/* Nav End */}

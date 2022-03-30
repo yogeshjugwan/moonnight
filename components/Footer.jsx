@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="col-lg-3 col-md-6 col-sm-6">
               <div className="widgets">
                 <div className="footer-logo">
-                  <a href="index.html"> <img src="assets/img/footer-logo.png" alt="logo" /></a>
+                  <a href="/"> <img src="assets/img/footer-logo.png" alt="logo" /></a>
                 </div>
                 <ul className="contact-us">
                   <li><i className="fa fa-map-marker" /> 6000 Universal Blvd, Orlando, FL 32819, USA</li>
@@ -18,11 +18,11 @@ const Footer = () => {
                   <li><i className="fa fa-envelope" /> <a href="mailto:moonnight@gmail.com">  <span className="__cf_email__" data-cfemail="2e474048416e424f59574b5c4d415b5c5a004d4143">moonnight@gmail.com</span></a></li>
                 </ul>
                 <ul className="social">
-                  <li><Link href="/"><a href="#" className="facebook"><i className="fa fa-facebook" /></a></Link></li>
-                  <li><Link href="/"><a href="#" className="twitter"><i className="fa fa-twitter" /></a></Link></li>
-                  <li><Link href="/"><a href="#" className="linkedin"><i className="fa fa-linkedin" /></a></Link></li>
-                  <li><Link href="/"><a href="#" className="google-plus"><i className="fa fa-google-plus" /></a></Link></li>
-                  <li><Link href="/"><a href="#" className="instagram"><i className="fa fa-instagram" /></a></Link></li>
+                  <li><Link href="/"><a href="#" className="facebook"><i className="fa-brands fa-facebook" /></a></Link></li>
+                  <li><Link href="/"><a href="#" className="twitter"><i className="fa-brands fa-twitter" /></a></Link></li>
+                  <li><Link href="/"><a href="#" className="linkedin"><i className="fa-brands fa-linkedin-in" /></a></Link></li>
+                  <li><Link href="/"><a href="#" className="google-plus"><i className="fa-brands fa-google-plus-g" /></a></Link></li>
+                  <li><Link href="/"><a href="#" className="instagram"><i class="fa-brands fa-instagram"></i></a></Link></li>
                 </ul>
               </div>
             </div>
@@ -81,16 +81,16 @@ const Footer = () => {
           <div className="container">
             <div className="row">
               <div className="col-lg-7 col-md-7">
-                <p><i className="fa fa-copyright" /> 2021 <a href="http://envytheme.com/" target="_blank" rel="noreferrer">EnvyTheme.</a> All rights reserved.</p>
+                <p><i className="fa fa-copyright" /> 2021 <a href="https://prideconsultancy.com/" target="_blank" rel="noreferrer">PrideConsultancy.</a> All rights reserved.</p>
               </div>
-              {/* <div className="col-lg-5 col-md-5">
+              <div className="col-lg-5 col-md-5">
                 <ul>
                   <li><a href="#"><img src="assets/img/paypal.png" alt="paypal" /></a></li>
                   <li><a href="#"><img src="assets/img/visa.png" alt="visa" /></a></li>
                   <li><a href="#"><img src="assets/img/master-card.png" alt="master-card" /></a></li>
                   <li><a href="#"><img src="assets/img/maestro.png" alt="maestro" /></a></li>
                 </ul>
-              </div> */}
+              </div>
             </div>
           </div>
         </div>

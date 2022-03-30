@@ -53,6 +53,7 @@ const Products = () => {
       <div>
 
         <section className="new-products-area ptb-80">
+          <div className="container">
         <div className="search">
           <input
             className="search-txt"
@@ -66,7 +67,6 @@ const Products = () => {
             <i className="fas fa-search"></i>
           </a>
         </div>
-          <div className="container">
             <div className="row">
               {search(items).map((data) => {
                 return (

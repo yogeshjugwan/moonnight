@@ -1192,6 +1192,7 @@ New Products Area CSS
 .new-products-area {
   background-color: var(--bg-black);
   padding-bottom: 50px;
+  margin-top: 5rem;
 }
 
 .single-product {
@@ -4440,7 +4441,7 @@ Go Top CSS
 @media (max-width:900px) {
   .search{
     position: absolute;
-    top:40%;
+    top:20%;
     left:50%;
     transform: translate(-50% , -50%);
     background:rgb(255, 255, 255) ;
@@ -4448,4 +4449,14 @@ Go Top CSS
     border-radius: 40px;
     padding-left: 15px;
   }
+  .search:hover > .search-txt{
+    width: 300px;
+    padding: 0 0px;
+    color: rgb(19, 18, 18) ;
+    font-family: 'Pangolin', cursive;
+  }
+  .search-btn{
+    display: none;
+  }
+  
 }
