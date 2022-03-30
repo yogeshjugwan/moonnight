@@ -1,9 +1,8 @@
 import React from 'react'
 
 const BackDrower = ({show,click}) => {
-  return (
-    show &&
-    <div className='backdrop' onClick={click}>BackDrower</div>
+  return (show &&
+    <div className='backdrop' onClick={click}></div>
   )
 }
 

@@ -1,7 +1,7 @@
 .backdrop{
-    display: none;
+    display: none !important;
 }
-@media (max-width: 960px) {
+@media (max-width: 860px) {
     .backdrop{
         width: 100%;
         height: 100vh;

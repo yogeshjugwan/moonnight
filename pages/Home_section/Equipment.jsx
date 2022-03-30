@@ -56,7 +56,7 @@ const Equipment = () => {
                   <img src="assets/img/equipment-img1.jpg" alt="equipment-img" />
                   <div className="hover-box">
                     <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">Quick View</button>
-                    <a href="#" className="btn btn-primary">Add to Cart</a>
+                   {/* <a href="#" className="btn btn-primary">Add to Cart</a> */}
                   </div>
                 </div>
                 <div className="product-content">
@@ -81,7 +81,7 @@ const Equipment = () => {
                   <img src="assets/img/equipment-img2.jpg" alt="equipment-img" />
                   <div className="hover-box">
                     <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">Quick View</button>
-                    <a href="#" className="btn btn-primary">Add to Cart</a>
+                   {/* <a href="#" className="btn btn-primary">Add to Cart</a> */}
                   </div>
                 </div>
                 <div className="product-content">
@@ -109,7 +109,7 @@ const Equipment = () => {
                   <img src="assets/img/equipment-img3.jpg" alt="equipment-img" />
                   <div className="hover-box">
                     <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">Quick View</button>
-                    <a href="#" className="btn btn-primary">Add to Cart</a>
+                   {/* <a href="#" className="btn btn-primary">Add to Cart</a> */}
                   </div>
                 </div>
                 <div className="product-content">
@@ -134,7 +134,7 @@ const Equipment = () => {
                   <img src="assets/img/equipment-img4.jpg" alt="equipment-img" />
                   <div className="hover-box">
                     <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">Quick View</button>
-                    <a href="#" className="btn btn-primary">Add to Cart</a>
+                   {/* <a href="#" className="btn btn-primary">Add to Cart</a> */}
                   </div>
                 </div>
                 <div className="product-content">
@@ -162,7 +162,7 @@ const Equipment = () => {
                   <img src="assets/img/equipment-img5.jpg" alt="equipment-img" />
                   <div className="hover-box">
                     <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">Quick View</button>
-                    <a href="#" className="btn btn-primary">Add to Cart</a>
+                   {/* <a href="#" className="btn btn-primary">Add to Cart</a> */}
                   </div>
                 </div>
                 <div className="product-content">
@@ -187,7 +187,7 @@ const Equipment = () => {
                   <img src="assets/img/equipment-img6.jpg" alt="equipment-img" />
                   <div className="hover-box">
                     <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">Quick View</button>
-                    <a href="#" className="btn btn-primary">Add to Cart</a>
+                   {/* <a href="#" className="btn btn-primary">Add to Cart</a> */}
                   </div>
                 </div>
                 <div className="product-content">
@@ -215,7 +215,7 @@ const Equipment = () => {
                   <img src="assets/img/equipment-img7.jpg" alt="equipment-img" />
                   <div className="hover-box">
                     <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">Quick View</button>
-                    <a href="#" className="btn btn-primary">Add to Cart</a>
+                   {/* <a href="#" className="btn btn-primary">Add to Cart</a> */}
                   </div>
                 </div>
                 <div className="product-content">
@@ -240,7 +240,7 @@ const Equipment = () => {
                   <img src="assets/img/equipment-img8.jpg" alt="equipment-img" />
                   <div className="hover-box">
                     <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">Quick View</button>
-                    <a href="#" className="btn btn-primary">Add to Cart</a>
+                   {/* <a href="#" className="btn btn-primary">Add to Cart</a> */}
                   </div>
                 </div>
                 <div className="product-content">
@@ -265,7 +265,7 @@ const Equipment = () => {
                   <img src="assets/img/equipment-img9.jpg" alt="equipment-img" />
                   <div className="hover-box">
                     <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">Quick View</button>
-                    <a href="#" className="btn btn-primary">Add to Cart</a>
+                   {/* <a href="#" className="btn btn-primary">Add to Cart</a> */}
                   </div>
                 </div>
                 <div className="product-content">
