@@ -18,9 +18,9 @@ function MyApp({ Component, pageProps }) {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <link rel="icon" href="/assets/img/favicon.ico" />
-        <script src="assets/js/bootstrap.min.js"></script>
 
       </Head>
+      <Script src="assets/js/bootstrap.min.js"></Script>
       <Header />
       <Navbar show={toggle} click={() => setToggle(!toggle)} />
       <BackDrop show={toggle} click={() => setToggle(false)} />
