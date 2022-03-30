@@ -53,17 +53,17 @@ const Products = () => {
       <div>
 
         <section className="new-products-area ptb-80">
-        <div class="search">
+        <div className="search">
           <input
-            class="search-txt"
+            className="search-txt"
             type="text"
             name=""
             placeholder={"Type to search"}
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
           />
-          <a class="search-btn" href="#">
-            <i class="fas fa-search"></i>
+          <a className="search-btn" href="#">
+            <i className="fas fa-search"></i>
           </a>
         </div>
           <div className="container">
