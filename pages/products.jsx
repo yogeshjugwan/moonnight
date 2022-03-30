@@ -12,9 +12,6 @@ const Products = () => {
       .then((result) => {
         setItems(result.products);
       });
-      // setTimeout(() => {
-      //   const placeholder ="new-products-area ptb-80"
-      // }, timeout);
   });
   const getProduct = (
     title,

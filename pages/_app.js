@@ -4,6 +4,8 @@ import { useState } from 'react'
 import Footer from '../components/Footer'
 import Head from 'next/head'
 import BackDrop from '../components/BackDrop'
+import Script from 'next/script'
+
 function MyApp({ Component, pageProps }) {
   const [toggle, setToggle] = useState(false);
 
@@ -16,6 +18,8 @@ function MyApp({ Component, pageProps }) {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <link rel="icon" href="/assets/img/favicon.ico" />
+        <script src="assets/js/bootstrap.min.js"></script>
+
       </Head>
       <Header />
       <Navbar show={toggle} click={() => setToggle(!toggle)} />
