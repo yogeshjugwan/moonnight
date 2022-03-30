@@ -1,0 +1,204 @@
+{
+  "products": [
+     {
+        "id": 0,
+        "title": "Quick View",
+        "img": "assets/img/new-product1.jpg",
+        "discount": "20%",
+        "name": " Polygon Bend RV - Gravel / Cyclocross Disc Bike",
+        "pricemini": "$1020.00",
+        "pricemax": "$901.00",
+        "description": "Also created at Wyncode Academy, FurEver is a petfinding app built with React and Express JS, which utilizes Petfinder's O-Auth API. FurEver is designed to help match adoptable pets with forever homes in a fun, user-friendly interface."
+    },
+    {
+        "id": 1,
+        "title": "Quick View",
+        "img": "assets/img/new-product1.jpg",
+        "discount": "20%",
+        "name": " Polygon Bend RV - Gravel / Cyclocross Disc Bike",
+        "pricemini": "$1021.00",
+        "pricemax": "$902.00",
+        "description": "Also created at Wyncode Academy, FurEver is a petfinding app built with React and Express JS, which utilizes Petfinder's O-Auth API. FurEver is designed to help match adoptable pets with forever homes in a fun, user-friendly interface."
+    },
+    {
+        "id": 2,
+        "title": "Quick View",
+        "img": "assets/img/new-product1.jpg",
+        "discount": "20%",
+        "name": " Polygon Bend RV - Gravel / Cyclocross Disc Bike",
+        "pricemini": "$1020.00",
+        "pricemax": "$903.00",
+        "description": "Also created at Wyncode Academy, FurEver is a petfinding app built with React and Express JS, which utilizes Petfinder's O-Auth API. FurEver is designed to help match adoptable pets with forever homes in a fun, user-friendly interface."
+    },
+    {
+        "id": 3,
+        "title": "Quick View",
+        "img": "assets/img/new-product1.jpg",
+        "discount": "20%",
+        "name": " Polygon Bend RV - Gravel / Cyclocross Disc Bike",
+        "pricemini": "$1020.00",
+        "pricemax": "$904.00",
+        "description": "Also created at Wyncode Academy, FurEver is a petfinding app built with React and Express JS, which utilizes Petfinder's O-Auth API. FurEver is designed to help match adoptable pets with forever homes in a fun, user-friendly interface."
+    },
+    {
+        "id": 4,
+        "title": "Quick View",
+        "img": "assets/img/new-product1.jpg",
+        "discount": "20%",
+        "name": " Polygon Bend RV - Gravel / Cyclocross Disc Bike",
+        "pricemini": "$1020.00",
+        "pricemax": "$905.00",
+        "description": "Also created at Wyncode Academy, FurEver is a petfinding app built with React and Express JS, which utilizes Petfinder's O-Auth API. FurEver is designed to help match adoptable pets with forever homes in a fun, user-friendly interface."
+    },
+    {
+        "id": 5,
+        "title": "Quick View",
+        "img": "assets/img/new-product1.jpg",
+        "discount": "20%",
+        "name": " Polygon Bend RV - Gravel / Cyclocross Disc Bike",
+        "pricemini": "$1020.00",
+        "pricemax": "$906.00",
+        "description": "Also created at Wyncode Academy, FurEver is a petfinding app built with React and Express JS, which utilizes Petfinder's O-Auth API. FurEver is designed to help match adoptable pets with forever homes in a fun, user-friendly interface."
+    },
+    {
+        "id": 6,
+        "title": "Quick View",
+        "img": "assets/img/new-product1.jpg",
+        "discount": "20%",
+        "name": " Polygon Bend RV - Gravel / Cyclocross Disc Bike",
+        "pricemini": "$1020.00",
+        "pricemax": "$907.00",
+        "description": "Also created at Wyncode Academy, FurEver is a petfinding app built with React and Express JS, which utilizes Petfinder's O-Auth API. FurEver is designed to help match adoptable pets with forever homes in a fun, user-friendly interface."
+    },
+    {
+        "id": 7,
+        "title": "Quick View",
+        "img": "assets/img/new-product1.jpg",
+        "discount": "20%",
+        "name": " Polygon Bend RV - Gravel / Cyclocross Disc Bike",
+        "pricemini": "$1020.00",
+        "pricemax": "$908.00",
+        "description": "Also created at Wyncode Academy, FurEver is a petfinding app built with React and Express JS, which utilizes Petfinder's O-Auth API. FurEver is designed to help match adoptable pets with forever homes in a fun, user-friendly interface."
+    },
+    {
+        "id": 8,
+        "title": "Quick View",
+        "img": "assets/img/new-product1.jpg",
+        "discount": "20%",
+        "name": " Polygon Bend RV - Gravel / Cyclocross Disc Bike",
+        "pricemini": "$1020.00",
+        "pricemax": "$909.00",
+        "description": "Also created at Wyncode Academy, FurEver is a petfinding app built with React and Express JS, which utilizes Petfinder's O-Auth API. FurEver is designed to help match adoptable pets with forever homes in a fun, user-friendly interface."
+    },
+    {
+        "id": 9,
+        "title": "Quick View",
+        "img": "assets/img/new-product1.jpg",
+        "discount": "20%",
+        "name": " Polygon Bend RV - Gravel / Cyclocross Disc Bike",
+        "pricemini": "$1020.00",
+        "pricemax": "$910.00",
+        "description": "Also created at Wyncode Academy, FurEver is a petfinding app built with React and Express JS, which utilizes Petfinder's O-Auth API. FurEver is designed to help match adoptable pets with forever homes in a fun, user-friendly interface."
+    },
+    {
+        "id": 10,
+        "title": "Quick View",
+        "img": "assets/img/new-product1.jpg",
+        "discount": "20%",
+        "name": " Polygon Bend RV - Gravel / Cyclocross Disc Bike",
+        "pricemini": "$1020.00",
+        "pricemax": "$911.00",
+        "description": "Also created at Wyncode Academy, FurEver is a petfinding app built with React and Express JS, which utilizes Petfinder's O-Auth API. FurEver is designed to help match adoptable pets with forever homes in a fun, user-friendly interface."
+    },
+    {
+        "id": 11,
+        "title": "Quick View",
+        "img": "assets/img/new-product1.jpg",
+        "discount": "20%",
+        "name": " Polygon Bend RV - Gravel / Cyclocross Disc Bike",
+        "pricemini": "$1020.00",
+        "pricemax": "$912.00",
+        "description": "Also created at Wyncode Academy, FurEver is a petfinding app built with React and Express JS, which utilizes Petfinder's O-Auth API. FurEver is designed to help match adoptable pets with forever homes in a fun, user-friendly interface."
+    },
+    {
+        "id": 12,
+        "title": "Quick View",
+        "img": "assets/img/new-product1.jpg",
+        "discount": "20%",
+        "name": " Polygon Bend RV - Gravel / Cyclocross Disc Bike",
+        "pricemini": "$1020.00",
+        "pricemax": "$913.00",
+        "description": "Also created at Wyncode Academy, FurEver is a petfinding app built with React and Express JS, which utilizes Petfinder's O-Auth API. FurEver is designed to help match adoptable pets with forever homes in a fun, user-friendly interface."
+    },
+    {
+        "id": 13,
+        "title": "Quick View",
+        "img": "assets/img/new-product1.jpg",
+        "discount": "20%",
+        "name": " Polygon Bend RV - Gravel / Cyclocross Disc Bike",
+        "pricemini": "$1020.00",
+        "pricemax": "$900.00",
+        "description": "Also created at Wyncode Academy, FurEver is a petfinding app built with React and Express JS, which utilizes Petfinder's O-Auth API. FurEver is designed to help match adoptable pets with forever homes in a fun, user-friendly interface."
+    },
+    {
+        "id": 14,
+        "title": "Quick View",
+        "img": "assets/img/new-product1.jpg",
+        "discount": "20%",
+        "name": " Polygon Bend RV - Gravel / Cyclocross Disc Bike",
+        "pricemini": "$1020.00",
+        "pricemax": "$900.00",
+        "description": "Also created at Wyncode Academy, FurEver is a petfinding app built with React and Express JS, which utilizes Petfinder's O-Auth API. FurEver is designed to help match adoptable pets with forever homes in a fun, user-friendly interface."
+    },
+    {
+        "id": 15,
+        "title": "Quick View",
+        "img": "assets/img/new-product1.jpg",
+        "discount": "20%",
+        "name": " Polygon Bend RV - Gravel / Cyclocross Disc Bike",
+        "pricemini": "$1020.00",
+        "pricemax": "$900.00",
+        "description": "Also created at Wyncode Academy, FurEver is a petfinding app built with React and Express JS, which utilizes Petfinder's O-Auth API. FurEver is designed to help match adoptable pets with forever homes in a fun, user-friendly interface."
+    },
+    {
+        "id": 16,
+        "title": "Quick View",
+        "img": "assets/img/new-product1.jpg",
+        "discount": "20%",
+        "name": " Polygon Bend RV - Gravel / Cyclocross Disc Bike",
+        "pricemini": "$1020.00",
+        "pricemax": "$900.00",
+        "description": "Also created at Wyncode Academy, FurEver is a petfinding app built with React and Express JS, which utilizes Petfinder's O-Auth API. FurEver is designed to help match adoptable pets with forever homes in a fun, user-friendly interface."
+    },
+    {
+        "id": 17,
+        "title": "Quick View",
+        "img": "assets/img/new-product1.jpg",
+        "discount": "20%",
+        "name": " Polygon Bend RV - Gravel / Cyclocross Disc Bike",
+        "pricemini": "$1020.00",
+        "pricemax": "$900.00",
+        "description": "Also created at Wyncode Academy, FurEver is a petfinding app built with React and Express JS, which utilizes Petfinder's O-Auth API. FurEver is designed to help match adoptable pets with forever homes in a fun, user-friendly interface."
+    },
+    {
+        "id": 18,
+        "title": "Quick View",
+        "img": "assets/img/new-product1.jpg",
+        "discount": "20%",
+        "name": " Polygon Bend RV - Gravel / Cyclocross Disc Bike",
+        "pricemini": "$1020.00",
+        "pricemax": "$900.00",
+        "description": "Also created at Wyncode Academy, FurEver is a petfinding app built with React and Express JS, which utilizes Petfinder's O-Auth API. FurEver is designed to help match adoptable pets with forever homes in a fun, user-friendly interface."
+    },
+    {
+        "id": 19,
+        "title": "Quick View",
+        "img": "assets/img/new-product1.jpg",
+        "discount": "20%",
+        "name": " Polygon Bend RV - Gravel / Cyclocross Disc Bike",
+        "pricemini": "$1020.00",
+        "pricemax": "$900.00",
+        "description": "Also created at Wyncode Academy, FurEver is a petfinding app built with React and Express JS, which utilizes Petfinder's O-Auth API. FurEver is designed to help match adoptable pets with forever homes in a fun, user-friendly interface."
+    }
+    ]
+}
