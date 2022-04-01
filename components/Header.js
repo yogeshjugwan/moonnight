@@ -3,7 +3,7 @@ import React from 'react'
 const Header = () => {
   return (
     <div>{/* Start Top Header Area */}
-    <header className="top-header">
+    {/* <header className="top-header">
       <div className="container">
         <div className="row">
           <div className="col-lg-3 col-md-6 col-sm-6">
@@ -22,19 +22,19 @@ const Header = () => {
           </div>
           <div className="col-lg-3 col-md-6 col-sm-6">
             <div className="dropdown">
-              {/* <button className="dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <button className="dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <i className="fa fa-user" />
-              </button> */}
+              </button>
               <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <a className="dropdown-item" href="#">Profile Settings</a>
                 <a className="dropdown-item" href="#">Sign Out</a>
               </div>
             </div>
-            {/* <a href="#" className="btn btn-primary">Login/Register</a> */}
+            <a href="#" className="btn btn-primary">Login/Register</a>
           </div>
         </div>
       </div>
-    </header>
+    </header> */}
     {/* End Top Header Area */}
     </div>
   )

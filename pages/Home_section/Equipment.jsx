@@ -1,5 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
+import Link from "next/link";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 const Equipment = () => {
@@ -39,6 +40,63 @@ const Equipment = () => {
       },
     ],
   };
+
+  const Equipment=[
+    {
+      name:"Sidi Mountain Bike Shoes",
+      price:"$100.12",
+      actualPrice:"$180.00",
+      diccount:"20%"
+    },
+    {
+      name:"Sidi Mountain Bike Shoes",
+      price:"$100.12",
+      actualPrice:"$180.00",
+      diccount:"20%"
+    },
+    {
+      name:"Sidi Mountain Bike Shoes",
+      price:"$100.12",
+      actualPrice:"$180.00",
+      diccount:"20%"
+    },
+    {
+      name:"Sidi Mountain Bike Shoes",
+      price:"$100.12",
+      actualPrice:"$180.00",
+      diccount:"20%"
+    },
+    {
+      name:"Sidi Mountain Bike Shoes",
+      price:"$100.12",
+      actualPrice:"$180.00",
+      diccount:"20%"
+    },
+    {
+      name:"Sidi Mountain Bike Shoes",
+      price:"$100.12",
+      actualPrice:"$180.00",
+      diccount:"20%"
+    },
+    {
+      name:"Sidi Mountain Bike Shoes",
+      price:"$100.12",
+      actualPrice:"$180.00",
+      diccount:"20%"
+    },
+    {
+      name:"Sidi Mountain Bike Shoes",
+      price:"$100.12",
+      actualPrice:"$180.00",
+      diccount:"20%"
+    },
+    {
+      name:"Sidi Mountain Bike Shoes",
+      price:"$100.12",
+      actualPrice:"$180.00",
+      diccount:"20%"
+    },
+  ]
   return (
     <div>
       {/* Start Bikes Equipment Area */}
@@ -56,15 +114,17 @@ const Equipment = () => {
           <div className="row">
             <div className="equipment-slider">
               <Slider {...settings}>
+                {Equipment.map((data)=>{return(
+                  <>
                 <div className="col-lg-12">
                   <div className="single-product">
                     <div className="product-image">
-                      <a href="/products">
+                      <Link  href="/products"><a>
                         <img
                           src="assets/img/equipment-img1.jpg"
                           alt="equipment-img"
                         />
-                      </a>
+                      </a></Link>
                       <div className="hover-box">
                         {/* <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">Quick View</button>
                    {/* <a href="#" className="btn btn-primary">Add to Cart</a> */}
@@ -72,10 +132,10 @@ const Equipment = () => {
                     </div>
                     <div className="product-content">
                       <h3>
-                        <a href="#">Sidi Mountain Bike Shoes</a>
+                        <Link href="/products"><a>{data.name}</a></Link>
                       </h3>
                       <p>
-                        <span>$180.00</span> $100.12
+                        <span>{data.actualPrice}</span>{data.price}
                       </p>
                       <ul>
                         <li>
@@ -96,19 +156,19 @@ const Equipment = () => {
                       </ul>
                     </div>
                     <div className="discount">
-                      Off<span>20%</span>
+                      Off<span>{data.diccount}</span>
                     </div>
                   </div>
                 </div>
                 <div className="col-lg-12">
                   <div className="single-product">
                     <div className="product-image">
-                      <a href="/products">
+                      <Link  href="/products"><a>
                         <img
                           src="assets/img/equipment-img2.jpg"
                           alt="equipment-img"
                         />
-                      </a>
+                      </a></Link>
                       <div className="hover-box">
                         {/* <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">Quick View</button>
                    {/* <a href="#" className="btn btn-primary">Add to Cart</a> */}
@@ -116,10 +176,10 @@ const Equipment = () => {
                     </div>
                     <div className="product-content">
                       <h3>
-                        <a href="#">Bell Stoker Bike Helmet</a>
+                      <Link href="/products"><a>{data.name}</a></Link>
                       </h3>
                       <p>
-                        <span>$39.21</span> $29.25
+                      <span>{data.actualPrice}</span>{data.price}
                       </p>
                       <ul>
                         <li>
@@ -141,320 +201,12 @@ const Equipment = () => {
                     </div>
                     <div className="sale">sale</div>
                     <div className="discount">
-                      Off<span>10%</span>
+                    Off<span>{data.diccount}</span>
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-12">
-                  <div className="single-product">
-                    <div className="product-image">
-                      <a href="/products">
-                        <img
-                          src="assets/img/equipment-img3.jpg"
-                          alt="equipment-img"
-                        />
-                      </a>
-                      <div className="hover-box">
-                        {/* <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">Quick View</button>
-                   {/* <a href="#" className="btn btn-primary">Add to Cart</a> */}
-                      </div>
-                    </div>
-                    <div className="product-content">
-                      <h3>
-                        <a href="/products">Red and black motorbike gloves</a>
-                      </h3>
-                      <p>
-                        <span>$15.00</span> $08.00
-                      </p>
-                      <ul>
-                        <li>
-                          <i className="fa fa-star" />
-                        </li>
-                        <li>
-                          <i className="fa fa-star" />
-                        </li>
-                        <li>
-                          <i className="fa fa-star" />
-                        </li>
-                        <li>
-                          <i className="fa fa-star" />
-                        </li>
-                        <li>
-                          <i className="fa fa-star" />
-                        </li>
-                      </ul>
-                    </div>
-                    <div className="discount">
-                      Off<span>05%</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-12">
-                  <div className="single-product">
-                    <div className="product-image">
-                      <a href="/products">
-                        <img
-                          src="assets/img/equipment-img4.jpg"
-                          alt="equipment-img"
-                        />
-                      </a>
-                      <div className="hover-box">
-                        {/* <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">Quick View</button>
-                   {/* <a href="#" className="btn btn-primary">Add to Cart</a> */}
-                      </div>
-                    </div>
-                    <div className="product-content">
-                      <h3>
-                        <a href="/products">27.5 x 2.10 Gila Mountain Tyre</a>
-                      </h3>
-                      <p>
-                        <span>$50.00</span> $40.00
-                      </p>
-                      <ul>
-                        <li>
-                          <i className="fa fa-star" />
-                        </li>
-                        <li>
-                          <i className="fa fa-star" />
-                        </li>
-                        <li>
-                          <i className="fa fa-star" />
-                        </li>
-                        <li>
-                          <i className="fa fa-star" />
-                        </li>
-                        <li>
-                          <i className="fa fa-star" />
-                        </li>
-                      </ul>
-                    </div>
-                    <div className="sale">sale</div>
-                    <div className="discount">
-                      Off<span>20%</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-12">
-                  <div className="single-product">
-                    <div className="product-image">
-                      <a href="/products">
-                        <img
-                          src="assets/img/equipment-img5.jpg"
-                          alt="equipment-img"
-                        />
-                      </a>
-                      <div className="hover-box">
-                        {/* <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">Quick View</button>
-                   {/* <a href="#" className="btn btn-primary">Add to Cart</a> */}
-                      </div>
-                    </div>
-                    <div className="product-content">
-                      <h3>
-                        <a href="/products">Pioneer Ace 9000 Power Meter</a>
-                      </h3>
-                      <p>
-                        <span>$680.00</span> $649.95
-                      </p>
-                      <ul>
-                        <li>
-                          <i className="fa fa-star" />
-                        </li>
-                        <li>
-                          <i className="fa fa-star" />
-                        </li>
-                        <li>
-                          <i className="fa fa-star" />
-                        </li>
-                        <li>
-                          <i className="fa fa-star" />
-                        </li>
-                        <li>
-                          <i className="fa fa-star" />
-                        </li>
-                      </ul>
-                    </div>
-                    <div className="discount">
-                      Off<span>10%</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-12">
-                  <div className="single-product">
-                    <div className="product-image">
-                      <a href="/products">
-                        <img
-                          src="assets/img/equipment-img6.jpg"
-                          alt="equipment-img"
-                        />
-                      </a>
-                      <div className="hover-box">
-                        {/* <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">Quick View</button>
-                   {/* <a href="#" className="btn btn-primary">Add to Cart</a> */}
-                      </div>
-                    </div>
-                    <div className="product-content">
-                      <h3>
-                        <a href="/products">Muddyfox Track Pump 100</a>
-                      </h3>
-                      <p>
-                        <span>$40.00</span> $34.98
-                      </p>
-                      <ul>
-                        <li>
-                          <i className="fa fa-star" />
-                        </li>
-                        <li>
-                          <i className="fa fa-star" />
-                        </li>
-                        <li>
-                          <i className="fa fa-star" />
-                        </li>
-                        <li>
-                          <i className="fa fa-star" />
-                        </li>
-                        <li>
-                          <i className="fa fa-star" />
-                        </li>
-                      </ul>
-                    </div>
-                    <div className="sale">sale</div>
-                    <div className="discount">
-                      Off<span>05%</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-12">
-                  <div className="single-product">
-                    <div className="product-image">
-                      <a href="/products">
-                        <img
-                          src="assets/img/equipment-img7.jpg"
-                          alt="equipment-img"
-                        />
-                      </a>
-                      <div className="hover-box">
-                        {/* <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">Quick View</button>
-                   {/* <a href="#" className="btn btn-primary">Add to Cart</a> */}
-                      </div>
-                    </div>
-                    <div className="product-content">
-                      <h3>
-                        <a href="/products">Planet Bike Standard bike seat</a>
-                      </h3>
-                      <p>
-                        <span>$35.02</span> $30.97
-                      </p>
-                      <ul>
-                        <li>
-                          <i className="fa fa-star" />
-                        </li>
-                        <li>
-                          <i className="fa fa-star" />
-                        </li>
-                        <li>
-                          <i className="fa fa-star" />
-                        </li>
-                        <li>
-                          <i className="fa fa-star" />
-                        </li>
-                        <li>
-                          <i className="fa fa-star" />
-                        </li>
-                      </ul>
-                    </div>
-                    <div className="discount">
-                      Off<span>05%</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-12">
-                  <div className="single-product">
-                    <div className="product-image">
-                      <a href="/products">
-                        <img
-                          src="assets/img/equipment-img8.jpg"
-                          alt="equipment-img"
-                        />
-                      </a>
-                      <div className="hover-box">
-                        {/* <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">Quick View</button>
-                   {/* <a href="#" className="btn btn-primary">Add to Cart</a> */}
-                      </div>
-                    </div>
-                    <div className="product-content">
-                      <h3>
-                        <a href="/products">Ridley X-Trail Ultegra Carbon</a>
-                      </h3>
-                      <p>
-                        <span>$30.00</span> $26.99
-                      </p>
-                      <ul>
-                        <li>
-                          <i className="fa fa-star" />
-                        </li>
-                        <li>
-                          <i className="fa fa-star" />
-                        </li>
-                        <li>
-                          <i className="fa fa-star" />
-                        </li>
-                        <li>
-                          <i className="fa fa-star" />
-                        </li>
-                        <li>
-                          <i className="fa fa-star" />
-                        </li>
-                      </ul>
-                    </div>
-                    <div className="discount">
-                      Off<span>12%</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-12">
-                  <div className="single-product">
-                    <div className="product-image">
-                      <a href="/products">
-                        <img
-                          src="assets/img/equipment-img9.jpg"
-                          alt="equipment-img"
-                        />
-                      </a>
-                      <div className="hover-box">
-                        {/* <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">Quick View</button>
-                   {/* <a href="#" className="btn btn-primary">Add to Cart</a> */}
-                      </div>
-                    </div>
-                    <div className="product-content">
-                      <h3>
-                        <a href="/products">BV Bicycle Handlebar Grips</a>
-                      </h3>
-                      <p>
-                        <span>$12.20</span> $10.00
-                      </p>
-                      <ul>
-                        <li>
-                          <i className="fa fa-star" />
-                        </li>
-                        <li>
-                          <i className="fa fa-star" />
-                        </li>
-                        <li>
-                          <i className="fa fa-star" />
-                        </li>
-                        <li>
-                          <i className="fa fa-star" />
-                        </li>
-                        <li>
-                          <i className="fa fa-star" />
-                        </li>
-                      </ul>
-                    </div>
-                    <div className="discount">
-                      Off<span>15%</span>
-                    </div>
-                  </div>
-                </div>
+                </>
+                  )})}
               </Slider>
             </div>
           </div>

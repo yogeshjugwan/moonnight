@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Link from 'next/link'
 const About = () => {
     const aboutdata=[
         {
@@ -55,7 +55,7 @@ const About = () => {
                 <h3>{value.title}</h3>
                 <p>{value.discription}</p>
               </div>
-              <a href="#" className="btn btn-primary">{value.link}</a>
+            <Link href="/products" ><a className="btn btn-primary">{value.link}</a></Link>
             </div>
           </div>
           )})}
