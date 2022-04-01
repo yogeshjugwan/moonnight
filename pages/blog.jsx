@@ -1,6 +1,7 @@
 import React from 'react'
 import Blog from './Home_section/Blog'
 import Head from 'next/head'
+import Link from 'next/link'
 const blog = () => {
   return (
     <div>
