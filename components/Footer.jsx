@@ -43,7 +43,7 @@ const Footer = () => {
                 <h3>Latest Tweets</h3>
                 <div className="latest-tweets-post">
                   <div className="icon">
-                    <i className="fa fa-twitter" />
+                    <i className="fa-brands fa-twitter" />
                   </div>
                   <div className="content">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi turpis massa, <a href="#">@Morbi turpis massa</a></p>
@@ -52,7 +52,7 @@ const Footer = () => {
                 </div>
                 <div className="latest-tweets-post mb-0">
                   <div className="icon">
-                    <i className="fa fa-twitter" />
+                    <i className="fa-brands fa-twitter" />
                   </div>
                   <div className="content">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi turpis massa, <a href="#">@Morbi turpis massa</a></p>
@@ -69,7 +69,7 @@ const Footer = () => {
                   <form>
                     <div className="form-group mb-0">
                       <input type="email" className="form-control" name="email" placeholder="Enter Your E-Mail" />
-                      <button type="submit"><i className="fa fa-paper-plane-o" /></button>
+                      <button type="submit"><i className="fa-solid fa-paper-plane"></i></button>
                     </div>
                   </form>
                 </div>

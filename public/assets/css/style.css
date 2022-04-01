@@ -2393,7 +2393,7 @@ Our History Area CSS
 }
 
 .timeline-title {
-  color: #000;
+  color: var(--color-white);
   text-transform: capitalize;
   font-size: 22px;
 }

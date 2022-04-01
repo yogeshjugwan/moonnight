@@ -38,13 +38,13 @@ const About = () => {
         <div className="row">
           <div className="col-lg-4 col-md-4 col-sm-5">
             <div className="section-title">
-              <h2>Welcome to Our <span>HeroBike</span></h2>
+              <h2>Welcome to   <span>Moon Night Bikes with innovations.</span></h2>
             </div>
           </div>
           <div className="col-lg-8 col-md-8 col-sm-7">
             <div className="about-text">
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos; standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
-                specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+              <p>
+              An Initiative innovation to the avenue of the nation in the form of Moon Night Bikes is providing an undivided two-wheeled luxury  &apos; magnificent experience for modern Indian society. The glorious, goodwill and performance of Moon Night Bikes within a short span is an adventure that speaks of Superlative Designs and Excellent Quality with Support. Meeting the demand for Indian quality products in the domestic market, Moon Night road bikes have set up a new standard on the industrial overlook.</p>
             </div>
           </div>
           {aboutdata.map((value,i)=>{return(
