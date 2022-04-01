@@ -74,8 +74,8 @@ const SaleProduct = () => {
           <div className="row">
             <div className="sale-product-slider">
               <Slider {...settings}>
-                {saleProduct.map((data)=>{return(
-                <div className="col-lg-12 col-md-12">
+                {saleProduct.map((data,i)=>{return(
+                <div key={i} className="col-lg-12 col-md-12">
                   <div className="single-sale-product">
                     <div className="row">
                       <div className="col-lg-6 col-md-6">
