@@ -1,4 +1,5 @@
 import React from "react"
+import Link from 'next/link'
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Slider from "react-slick";
@@ -97,7 +98,7 @@ const about = () => {
                 </div>
                 <div className="col-lg-6 col-md-6">
                   <ul>
-                    <li><a href="/"><i className="fa fa-home" /> Home</a></li>
+                    <li><Link href="/"><a><i className="fa fa-home" /> Home</a></Link></li>
                     <li><i className="fa fa-angle-right" /></li>
                     <li className="active">About Us</li>
                   </ul>
@@ -148,7 +149,7 @@ const about = () => {
                   <h3>All Brands</h3>
                   <p>Lorem Ipsum is simply dummy text of the printing and type setting industry.</p>
                 </div>
-                <a href="#" className="btn btn-primary">Read More</a>
+                <Link href="#"><a className="btn btn-primary">Read More</a></Link>
               </div>
             </div>
             <div className="col-lg-3 col-md-6 col-sm-6">
@@ -158,7 +159,8 @@ const about = () => {
                   <h3>Free Support</h3>
                   <p>Lorem Ipsum is simply dummy text of the printing and type setting industry.</p>
                 </div>
-                <a href="#" className="btn btn-primary">Read More</a>
+                <Link href="#"><a className="btn btn-primary">Read More</a></Link>
+
               </div>
             </div>
             <div className="col-lg-3 col-md-6 col-sm-6">
@@ -168,7 +170,8 @@ const about = () => {
                   <h3>Dealership</h3>
                   <p>Lorem Ipsum is simply dummy text of the printing and type setting industry.</p>
                 </div>
-                <a href="#" className="btn btn-primary">Read More</a>
+                <Link href="#"><a className="btn btn-primary">Read More</a></Link>
+
               </div>
             </div>
             <div className="col-lg-3 col-md-6 col-sm-6">
@@ -178,7 +181,8 @@ const about = () => {
                   <h3>Affordable</h3>
                   <p>Lorem Ipsum is simply dummy text of the printing and type setting industry.</p>
                 </div>
-                <a href="#" className="btn btn-primary">Read More</a>
+                <Link href="#"><a className="btn btn-primary">Read More</a></Link>
+
               </div>
             </div>
           </div>
@@ -264,7 +268,7 @@ const about = () => {
             <Slider {...settings}>
               {aboutPartnerImg.map((value,i)=>{return(
               <div key={i} className="item">
-                <a href="#"><img src={value.img} alt="partner1" /></a>
+                <Link href="#"><a><img src={value.img} alt="partner1" /></a></Link>
               </div>           
               )})}
               </Slider>
