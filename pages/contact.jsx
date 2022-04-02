@@ -1,10 +1,10 @@
 import Head from 'next/head'
-import React, { useState } from "react";
+import React from "react";
 import Link from 'next/link'
 import axios from 'axios'
 const contact = () => {
   
-  const [user,setUser] = useState({
+  const [user,setUser] = React.useState({
     name:"",
     email:"",
     number:"",
