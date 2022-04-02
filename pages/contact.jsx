@@ -1,41 +1,57 @@
 import Head from 'next/head'
-import React from 'react'
+import React,{useState} from 'react'
 import Link from 'next/link'
+import axios from 'axios'
 const contact = () => {
+  const [user,setUser] = useState({
+    name:"",
+    email:"",
+    number:"",
+    message:"",
+  })
+  const onChange = (e) => {
+    setUser({ ...user, [e.target.name]: e.target.value });
+  };
+  const onSubmit = ()=>{
+    axios.post(`https://sheet.best/api/sheets/373fa572-9fdb-4fc2-b69c-f0d8003614eb`,{
+      name:user.name,email:user.email,number:user.number,message:user.message
+    })
+  }
   const inputFild =[
     {
       "type":"text",
       "name":"name",
-      "id":"name",
+      "id":"Name",
       "placeholder":"Your Name",
       "data_error":"Please enter your name"
     },
     {
       "type":"email",
       "name":"email",
-      "id":"email",
+      "id":"Email",
       "placeholder":"Your Email",
       "data_error":"Please enter your email"
     },
     {
       "type":"number",
       "name":"number",
-      "id":"number",
+      "id":"Number",
       "placeholder":"Your Phone Number",
       "data_error":"Please enter your phone number"
     },
     {
       "type":"text",
-      "name":"subject",
-      "id":"subject",
-      "placeholder":"Your Email",
-      "data_error":"Please enter your email"
-    }
+      "name":"message",
+      "id":"message",
+      "placeholder":"Write your message",
+      "data_error":"Please Write your message"
+    },
   ]
   return (
     <div>
       <Head>
         <title>Moon Night Group | Contact-US</title>
+        
       </Head>
       <div>
     {/* Start Page Title Area */}
@@ -105,24 +121,23 @@ const contact = () => {
   <div className="container">
     <div className="row">
       <div className="col-lg-6 offset-lg-6 col-md-6 offset-md-6">
-        <form id="contactForm">
+        <form id="contactForm" method='post'>
           <div className="row">
             {inputFild.map((value,i)=>{return(
             <div key={i} className="col-lg-12 col-md-12">
               <div className="form-group">
-                <input type="text" className="form-control" name={value.name} id={value.id} placeholder={value.placeholder} required data_error={value.data_error} />
-                <div className="help-block with-errors" />
+                <input type={value.type} className="form-control" name={value.name} id={value.id} placeholder={value.placeholder} required  onChange={onChange}/>
               </div>
             </div>
               )})}
-            <div className="col-lg-12 col-md-12">
+            {/* <div className="col-lg-12 col-md-12">
               <div className="form-group">
-                <textarea name="message" className="form-control" id="message" cols={30} rows={6} placeholder="Message" required data_error="Write your message" defaultValue={""} />
-                <div className="help-block with-errors" />
+                <textarea name="message" className="form-control" id="message" cols={30} rows={6} placeholder="Message" required data_error="Write your message"  />
+                <div className="help-block with-errors" onChange={onChange} />
               </div>
-            </div>
+            </div> */}
             <div className="col-lg-12 col-md-12">
-              <button type="submit" className="btn btn-primary">Send Message</button>
+              <button type="submit" className="btn btn-primary" onClick={onSubmit}>Send Message</button>
               <div id="msgSubmit" className="h3 text-center hidden" />
               <div className="clearfix" /> 
             </div>

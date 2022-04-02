@@ -543,10 +543,15 @@ Main Header Area CSS
   background-color: var(--bg-black);
   color: var(--color-white) !important;
 }
-
+.classy-navbar img{
+  height: 65px !important;
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .main-header-area {
     height: 70px;
+  }
+  .classy-navbar img{
+    height: 65px !important;
   }
 }
 
@@ -582,12 +587,13 @@ Main Header Area CSS
 .main-header-area .classynav ul li a {
   color: var(--color-white);
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
 }
 
 .main-header-area .nav-brand {
-  line-height: 1;
+  line-height: 2;
+  height: fit-content;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -3911,7 +3917,6 @@ Contact Area CSS
   position: relative;
   background: #f5f5f5;
 }
-
 .contact::before {
   content: "";
   position: absolute;
@@ -3923,8 +3928,22 @@ Contact Area CSS
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-}
+}   
 
+@media (max-width:990px) {
+  .contact::before {
+    content: "";
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 48%;
+    height: 100%;
+    background-image: url(../../assets/img/home-bg-3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }   
+}
 /* 
 =========================================
 Main Banner Two Area CSS

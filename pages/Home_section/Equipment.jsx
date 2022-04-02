@@ -114,9 +114,9 @@ const Equipment = () => {
           <div className="row">
             <div className="equipment-slider">
               <Slider {...settings}>
-                {Equipment.map((data)=>{return(
+                {Equipment.map((data,i)=>{return(
                   <>
-                <div className="col-lg-12">
+                <div key={i} className="col-lg-12">
                   <div className="single-product">
                     <div className="product-image">
                       <Link  href="/products"><a>

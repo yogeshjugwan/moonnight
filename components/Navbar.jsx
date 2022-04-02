@@ -10,7 +10,7 @@ const Navber = ({show,click}) => {
             {/* Classy Menu */}
             <nav className="classy-navbar justify-content-between" id="bikeNav">
               {/* Logo */}
-              <Link className="nav-brand" href="/" passHref><img src="assets/img/logo.png" alt="logo" /></Link>
+              <Link className="nav-brand" href="/" passHref><img src="assets/img/moonnightlogo.png" alt="logo" /></Link>
               {/* Navbar Toggler */}
               <div className="classy-navbar-toggler">
                 <span className={`navbarToggler ${show && "navbarToggler active"}`} 

@@ -114,10 +114,10 @@ const Product = () => {
           <div className="row">
             <div className="bike-slider">
               <Slider {...settings}>
-                {Equipment.map((data) => {
+                {Equipment.map((data,i) => {
                   return (
                     <>
-                      <div className="item">
+                      <div key={i} className="item">
                         <div className="col-lg-12">
                           <div className="single-product">
                             <div className="product-image">
