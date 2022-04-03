@@ -98,13 +98,13 @@ const Contact = () => {
                   <p><a href="#"><span className="__cf_email__" data-cfemail="e0898e868fa08885928f82898b85ce838f8d">[email&nbsp;protected]</span></a></p>
                 </div>
               </div>
-              {/* <div className="col-lg-3 col-md-6 col-sm-6">
+              <div className="col-lg-3 col-md-6 col-sm-6">
                 <div className="contact-box">
-                  <i className="fa fa-skype" />
+                <i className="fa-brands fa-whatsapp"></i>
                   <h4>Skype</h4>
                   <p><a href="#">freelance.herobike</a></p>
                 </div>
-              </div> */}
+              </div>
             </div>
           </div>
         </section>

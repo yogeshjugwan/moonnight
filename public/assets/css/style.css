@@ -584,11 +584,28 @@ Main Header Area CSS
   }
 }
 
-.main-header-area .classynav ul li a {
-  color: var(--color-white);
+.main-header-area .classynav  li a,
+.main-header-area .search_icon li a
+ {
+  color: var(--color-white) !important;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 400;
+}
+.main-header-area  .search_icon{
+  display: none;
+}
+@media (max-width:990px) {
+  .main-header-area  .search_icon{
+    display: block;
+  }
+  .main-header-area .classynav ul .search-btn-hide{
+    display: none !important;
+  }
+  .main-header-area .classynav ul {
+    margin: 0;
+    padding-left: 30px;
+  }
 }
 
 .main-header-area .nav-brand {
@@ -1747,6 +1764,7 @@ Blog Area CSS
   bottom: 10px;
   right: 10px;
   background: var(--color-white);
+  color: var(--bg-black);
   padding: 10px;
   -ms-transition: 0.4s;
   -o-transition: 0.4s;

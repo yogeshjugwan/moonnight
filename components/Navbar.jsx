@@ -9,8 +9,13 @@ const Navber = ({show,click}) => {
           <div className="classy-nav-container breakpoint-off">
             {/* Classy Menu */}
             <nav className="classy-navbar justify-content-between" id="bikeNav">
+            <div className="search_icon">
+                  <ul onClick={click}>
+                   <li><Link href="/products"><a><i className="fa fa-search fa-2xl"></i></a></Link></li>
+                  </ul>
+                </div>
               {/* Logo */}
-              <Link className="nav-brand" href="/" passHref><img src="assets/img/moonnightlogo.png" alt="logo" /></Link>
+              <Link className="nav-brand" href="/" passHref><a><img src="assets/img/moonnightlogo.png" alt="logo" /></a></Link>
               {/* Navbar Toggler */}
               <div className="classy-navbar-toggler">
                 <span className={`navbarToggler ${show && "navbarToggler active"}`} 
@@ -30,7 +35,7 @@ const Navber = ({show,click}) => {
                    <li> <Link href="/products"><a>products</a></Link></li>
                    <li> <Link href="/blog"><a>Blog</a></Link></li>
                    <li> <Link href="/contact"><a>contact</a></Link></li>
-                   <li><Link href="/products" className="search-btn"><a><i className="fa fa-search"></i></a></Link></li>
+                   <li className='search-btn-hide'><Link href="/products" className="search-btn"><a><i className="fa fa-search fa-xl"></i></a></Link></li>
                   </ul>
                 </div>
                 {/* Nav End */}
