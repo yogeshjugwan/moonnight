@@ -10,7 +10,7 @@ const Navber = ({show,click}) => {
             {/* Classy Menu */}
             <nav className="classy-navbar justify-content-between" id="bikeNav">
             <div className="search_icon">
-                  <ul onClick={click}>
+                  <ul>
                    <li><Link href="/products"><a><i className="fa fa-search fa-2xl"></i></a></Link></li>
                   </ul>
                 </div>
