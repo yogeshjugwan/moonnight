@@ -9,6 +9,7 @@ const blog = () => {
         <title>Moon Night Group | Blogs</title>
       </Head>
       <div>
+        <h1 className='text-center'>Coming Soon</h1>
         {/* Start Page Title Area */}
         {/* <div className="page-title">
           <div className="d-table">
