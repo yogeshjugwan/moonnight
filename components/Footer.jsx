@@ -7,7 +7,7 @@ const Footer = () => {
       <footer className="footer-area ptb-80">
         <div className="container">
           <div className="row">
-            <div className="col-lg-3 col-md-6 col-sm-6">
+            <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="widgets">
                 <div className="footer-logo">
                 <Link href="/"><a> <img src="assets/img/footer-logo.png" alt="logo" /></a></Link>
@@ -26,8 +26,8 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 col-sm-6">
-              <div className="widgets">
+            <div className="col-lg-4 col-md-8 col-sm-6">
+              <div className="ms-lg-5 widgets">
                 <h3>Usefull Links</h3>
                 <ul className="usefull-links">
                   <li><Link href="/"><a ><i className="fa fa-angle-double-right" /> Home</a></Link></li>
@@ -38,7 +38,7 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6 col-sm-6">
+            {/* <div className="col-lg-3 col-md-6 col-sm-6">
               <div className="widgets">
                 <h3>Latest Tweets</h3>
                 <div className="latest-tweets-post">
@@ -60,8 +60,8 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-3 col-md-6 col-sm-6">
+            </div> */}
+            {/* <div className="col-lg-3 col-md-6 col-sm-6">
               <div className="widgets">
                 <h3>Subscribe Us</h3>
                 <div className="subscribe-us">
@@ -74,23 +74,35 @@ const Footer = () => {
                   </form>
                 </div>
               </div>
+            </div> */}
+            <div className="col-lg-4 col-md-6 col-sm-6">
+              <div className="widgets">
+                <h3>Usefull Links</h3>
+                <ul className="usefull-links">
+                  <li><Link href="/"><a ><i className="fa fa-angle-double-right" /> Home</a></Link></li>
+                  <li><Link href="/about"><a ><i className="fa fa-angle-double-right" /> About Us</a></Link></li>
+                  <li><Link href="/product"><a ><i className="fa fa-angle-double-right" /> Product</a></Link></li>
+                  <li><Link href="/blog"><a ><i className="fa fa-angle-double-right" /> Blog</a></Link></li>
+                  <li><Link href="/contact"><a ><i className="fa fa-angle-double-right" /> Contact</a></Link></li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
         <div className="copyright-area">
           <div className="container">
             <div className="row">
-              <div className="col-lg-7 col-md-7">
-                <p><i className="fa fa-copyright" /> 2021 <a href="https://prideconsultancy.com/" target="_blank" rel="noreferrer">PrideConsultancy.</a> All rights reserved.</p>
+              <div>
+                <p className='text-center'><i className="fa fa-copyright" /> 2021 <a href="https://prideconsultancy.com/" target="_blank" rel="noreferrer">PrideConsultancy.</a> All rights reserved.</p>
               </div>
-              <div className="col-lg-5 col-md-5">
+              {/* <div className="col-lg-5 col-md-5">
                 <ul>
                   <li><a href="#"><img src="assets/img/paypal.png" alt="paypal" /></a></li>
                   <li><a href="#"><img src="assets/img/visa.png" alt="visa" /></a></li>
                   <li><a href="#"><img src="assets/img/master-card.png" alt="master-card" /></a></li>
                   <li><a href="#"><img src="assets/img/maestro.png" alt="maestro" /></a></li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

@@ -3,25 +3,25 @@ import React from 'react'
 const FunFactsArea = () => {
     const funFactsAreaData = [
         {
-            "title": "30",
+            "title": "2",
             "discription": "Years in Business",
             "icon": "fa fa-calendar"
 
         },
         {
-            "title": "15060",
-            "discription": "Bikes For Sale",
+            "title": "972",
+            "discription": "Bikes Sale",
             "icon": "fa fa-bicycle"
 
         },
         {
-            "title": "14030",
+            "title": "956",
             "discription": "Satisfied Customers",
             "icon": "fa fa-users"
 
         },
         {
-            "title": "30",
+            "title": "16",
             "discription": "Qualified Staff",
             "icon": "fa fa-user"
 

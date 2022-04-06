@@ -5,28 +5,32 @@ const About = () => {
         {
             "title":"All Brands",
             "img":"bg-1",
-            "link":"Read More",
+            "linkTitle":"Read More",
+            "link":"/products",
             "icon":"fa fa-bicycle",
             "discription":"Lorem Ipsum is simply dummy text of the printing and type setting industry."
         },
         {
             "title":"Free Support",
             "img":"bg-2",
-            "link":"Read More",
+            "linkTitle":"Read More",
+            "link":"/contact",
             "icon":"fa fa-life-ring",
             "discription":"Lorem Ipsum is simply dummy text of the printing and type setting industry."
         },
         {
             "title":"Dealership",
             "img":"bg-3",
-            "link":"Read More",
+            "linkTitle":"Read More",
+            "link":"/contact",
             "icon":"fa fa-user",
             "discription":"Lorem Ipsum is simply dummy text of the printing and type setting industry."
         },
         {
             "title":"Affordable",
             "img":"bg-4",
-            "link":"Read More",
+            "linkTitle":"Read More",
+            "link":"/products",
             "icon":"fa fa-bullseye",
             "discription":"Lorem Ipsum is simply dummy text of the printing and type setting industry."
         }
@@ -55,7 +59,7 @@ const About = () => {
                 <h3>{value.title}</h3>
                 <p>{value.discription}</p>
               </div>
-            <Link href="/products" ><a className="btn btn-primary">{value.link}</a></Link>
+            <Link href={value.link} ><a className="btn btn-primary">{value.linkTitle}</a></Link>
             </div>
           </div>
           )})}

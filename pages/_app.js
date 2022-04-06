@@ -6,6 +6,16 @@ import Head from 'next/head'
 import BackDrop from '../components/BackDrop'
 import Script from 'next/script'
 import '../components/backdrop.css'
+// import '../public/assets/css/bootstrap.min.css'
+// import '../public/assets/css/animate.css'
+// import '../public/assets/css/magnific-popup.css'
+// import '../public/assets/css/icofont.css'
+// import '../public/assets/css/classy-nav.min.css'
+// import '../public/assets/css/gallery-slider.css'
+// import '../public/assets/css/style.css'
+// import '../public/assets/css/responsive.css'
+// import '../public/assets/css/color/color-default.css'
+// import '../public/assets/dist/color-switcher.css'
 function MyApp({ Component, pageProps }) {
   const [toggle, setToggle] = useState(false);
 

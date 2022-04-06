@@ -84,14 +84,16 @@ ul {
   margin: 0;
   padding: 0;
 }
-
+p{
+  text-align: justify !important;
+}
 ul li {
   list-style: none;
 }
 
 a {
   display: block;
-  color: #000;
+  /* color: #000; */
   font-size: 14px;
   -o-transition: 0.4s;
   -webkit-transition: 0.4s;

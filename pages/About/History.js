@@ -43,9 +43,9 @@ const History = () => {
               <div className="timeline-badge">2</div>
               <div className="timeline-panel">
                 <div className="timeline-heading">
-                  <h4 className="timeline-title">New Website Launch</h4>
+                  <h4 className="timeline-title">Website Launch</h4>
                   <p>
-                    <i className="fa fa-calendar" /> Years Of 2021
+                    <i className="fa fa-calendar" /> Years Of 2022
                   </p>
                 </div>
                 <div className="timeline-body">

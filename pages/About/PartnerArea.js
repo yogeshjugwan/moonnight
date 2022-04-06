@@ -64,7 +64,7 @@ const PartnerArea = () => {
     return (
         <div>
             <section className="partner-area ptb-80">
-    <div className="container">
+    {/* <div className="container">
       <div className="section-title">
         <h2>
           Our <span>Partner</span>
@@ -91,7 +91,7 @@ const PartnerArea = () => {
           </Slider>
         </div>
       </div>
-    </div>
+    </div> */}
   </section>
   </div>
     )

@@ -15,7 +15,7 @@ const Navber = ({show,click}) => {
                   </ul>
                 </div>
               {/* Logo */}
-              <Link className="nav-brand" href="/" passHref><a><img src="assets/img/moonnightlogo.png" alt="logo" /></a></Link>
+              <Link className="nav-brand" href="/" passHref><a><img src="assets/img/Moon Light Logo 124 Px.png" alt="logo" /></a></Link>
               {/* Navbar Toggler */}
               <div className="classy-navbar-toggler">
                 <span className={`navbarToggler ${show && "navbarToggler active"}`} 

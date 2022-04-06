@@ -10,7 +10,7 @@ const blog = () => {
       </Head>
       <div>
         {/* Start Page Title Area */}
-        <div className="page-title">
+        {/* <div className="page-title">
           <div className="d-table">
             <div className="d-table-cell">
               <div className="container">
@@ -31,10 +31,10 @@ const blog = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* End Page Title Area */}
 
-        <Blog />
+        {/* <Blog /> */}
       </div>
     </div>
   )

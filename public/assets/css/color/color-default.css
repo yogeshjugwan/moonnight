@@ -98,6 +98,9 @@ a:hover, a:focus, a:active {
 .upcoming-bike-content p {
     color: #d81416;
 }
+.upcoming-bike-content p h3 {
+    color: #d81416 !important;
+}
 .single-upcoming-bike:hover .upcoming-bike-content {
     background: #d81416;
 }

@@ -63,28 +63,28 @@ const About = () => {
         <div className="col-lg-6 col-md-12 col-sm-12">
           <div className="about-content">
             <p>
-              <p className="mb-0">
+              <p >
                 We are creators and progressive, but we are also an Indian
                 community of cyclists. We are athletes, adventurers and
                 advocates for cycling.
               </p>
-              <p className="mb-0">
+              <p >
                 Put it all together, Moon Night Bikes is a complete
                 ecosystem of bikes, gear and cycling services,
                 effortlessly, connected and always accessible.
               </p>
-              <p className="mb-0">
+              <p >
                 You can find us at our eCommerce store on Amazon, Flipkart
                 & other, around Faridabad, Haryana or connect with us
                 online from wherever you are.
               </p>
-              <p className="mb-0">
+              <p >
                 Our Vision Living up to its dynamic vision of going far
                 away from just bicycles, Moon Night Cycles has also
                 forayed into fitness and wheels for tiny and neonates with
                 Moon Night Group Champ respectively.
               </p>
-              <p className="mb-0">
+              <p >
                 In keeping with its visionary status, Rides and conquers
                 future trends, be it in new products, areas of business or
                 retail.
