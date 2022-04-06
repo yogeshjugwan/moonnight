@@ -1,11 +1,11 @@
-import React, { useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import Head from "next/head";
 import Model from "./Model";
 const Products = () => {
   const [items, setItems] = useState([]);
   const [modalData, setModalData] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
-
+  
   useEffect(() => {
     fetch("https://yogesh-jugwan.github.io/moonnight/moonnight.json")
       .then((response) => response.json())
@@ -51,23 +51,26 @@ const Products = () => {
         <title>Moon Night Group | Product</title>
       </Head>
       <div>
-
         <section className="new-products-area ptb-80">
           <div className="container">
-        <div className="search">
-          <input
-            className="search-txt"
-            type="text"
-            name=""
-            placeholder={"Type to search"}
-            value={searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value)}
-          />
-          <a className="search-btn" href="#">
-            <i className="fas fa-search"></i>
-          </a>
-        </div>
-            <div className="row">
+            <div className="input-group">
+              <input
+                type="search"
+                className="form-control rounded"
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
+                placeholder="Search"
+                aria-label="Search"
+                aria-describedby="search-addon"
+              />
+              <button
+                type="button"
+                className="btn btn-outline-primary bg-primary dark text-white"
+              >
+                search
+              </button>
+            </div>
+            <div className="row mt-5">
               {search(items).map((data) => {
                 return (
                   <div key={data.id} className="col-lg-3 col-md-6">
