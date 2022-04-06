@@ -1,4 +1,4 @@
-import { useRouter } from 'next/router'
+import React,{ useRouter } from 'react'
 const slug = () => {
     const router = useRouter()
     const { slug } = router.query
