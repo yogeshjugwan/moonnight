@@ -29,8 +29,8 @@ const History = () => {
                 <div className="timeline-body">
                   <p>
                     Moon Night Bikes startup’s in 2021 by two enthusiastic
-                    and passionate personalities of Mr Rahul Jha and
-                    Shivam Jha. Mr Rahul Jha is the Founder of Moon Night
+                    and passionate personalities of Mr Rahul Kumar and
+                    Shubham Kumar. Mr Rahul Kumar is the Founder of Moon Night
                     Group. He is an enthusiastic personality. He has
                     expertise in sales and business promotions. Mr Shivam
                     Jha is the Co-Founder of Moon Night Group. He has the

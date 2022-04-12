@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="widgets">
                 <div className="footer-logo">
-                <Link href="/"><a> <img src="assets/img/footer-logo.png" alt="logo" /></a></Link>
+                <Link href="/"><a> <img src="assets/img/logo.png" alt="logo" width={"100px"} /></a></Link>
                 </div>
                 <ul className="contact-us">
                   <li><i className="fa fa-map-marker" /> 6000 Universal Blvd, Orlando, FL 32819, USA</li>
