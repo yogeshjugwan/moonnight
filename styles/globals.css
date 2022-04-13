@@ -17,7 +17,7 @@ a {
 p{
   text-align: justify;
 }
-.moonnightgroup{
+#moonnightgroup{
   z-index: 100 !important;
   overflow: hidden !important;
 }
