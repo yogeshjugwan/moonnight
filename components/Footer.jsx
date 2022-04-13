@@ -1,28 +1,80 @@
-import Link from 'next/link'
-import React from 'react'
+import Link from "next/link";
+import React from "react";
 
 const Footer = () => {
   return (
-    <div>{/* Start Footer Area */}
+    <div>
+      {/* Start Footer Area */}
       <footer className="footer-area ptb-80">
         <div className="container">
           <div className="row">
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="widgets">
                 <div className="footer-logo">
-                <Link href="/"><a> <img src="assets/img/logo.png" alt="logo" width={"100px"} /></a></Link>
+                  <Link href="/">
+                    <a>
+                      {" "}
+                      <img
+                        src="assets/img/logo.png"
+                        alt="logo"
+                        width={"100px"}
+                      />
+                    </a>
+                  </Link>
                 </div>
                 <ul className="contact-us">
-                  <li><i className="fa fa-map-marker" /> 6000 Universal Blvd, Orlando, FL 32819, USA</li>
-                  <li><i className="fa fa-phone" /> <a href="tel:+91 921 254-5874"> +91 921 254-5874</a></li>
-                  <li><i className="fa fa-envelope" /> <a href="mailto:moonnight@gmail.com">  <span className="__cf_email__" data-cfemail="2e474048416e424f59574b5c4d415b5c5a004d4143">moonnight@gmail.com</span></a></li>
+                  <li>
+                    <i className="fa fa-map-marker" /> A-482/16, Gagan Vihar
+                    Bhopura Sahibabad Ghaziabad UP 201005
+                  </li>
+                  <li>
+                    <i className="fa fa-phone" />{" "}
+                    <span><a href="tel:+91 6387 982 497">+91 6387 982 497</a></span>
+                  </li>
+                  <li>
+                    <i className="fa fa-envelope" />{" "}
+                    <a href="mailto:moonnight@gmail.com">
+                      {" "}
+                      <span><a href="mailto:Info@moonnightgroup.com" type='email'><span className="__cf_email__" data-cfemail="e0898e868fa08885928f82898b85ce838f8d">Info@moonnightgroup.com]</span></a></span>
+                    </a>
+                  </li>
                 </ul>
                 <ul className="social">
-                  <li><Link href="/"><a href="#" className="facebook"><i className="fa-brands fa-facebook" /></a></Link></li>
-                  <li><Link href="/"><a href="#" className="twitter"><i className="fa-brands fa-twitter" /></a></Link></li>
-                  <li><Link href="/"><a href="#" className="linkedin"><i className="fa-brands fa-linkedin-in" /></a></Link></li>
-                  <li><Link href="/"><a href="#" className="google-plus"><i className="fa-brands fa-google-plus-g" /></a></Link></li>
-                  <li><Link href="/"><a href="#" className="instagram"><i className="fa-brands fa-instagram"></i></a></Link></li>
+                  <li>
+                    <Link href="/">
+                      <a href="#" className="facebook">
+                        <i className="fa-brands fa-facebook" />
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/">
+                      <a href="#" className="twitter">
+                        <i className="fa-brands fa-twitter" />
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/">
+                      <a href="#" className="linkedin">
+                        <i className="fa-brands fa-linkedin-in" />
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/">
+                      <a href="#" className="google-plus">
+                        <i className="fa-brands fa-google-plus-g" />
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/">
+                      <a href="#" className="instagram">
+                        <i className="fa-brands fa-instagram"></i>
+                      </a>
+                    </Link>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -30,11 +82,41 @@ const Footer = () => {
               <div className="ms-lg-5 widgets">
                 <h3>Usefull Links</h3>
                 <ul className="usefull-links">
-                  <li><Link href="/"><a ><i className="fa fa-angle-double-right" /> Home</a></Link></li>
-                  <li><Link href="/about"><a ><i className="fa fa-angle-double-right" /> About Us</a></Link></li>
-                  <li><Link href="/product"><a ><i className="fa fa-angle-double-right" /> Product</a></Link></li>
-                  <li><Link href="/blog"><a ><i className="fa fa-angle-double-right" /> Blog</a></Link></li>
-                  <li><Link href="/contact"><a ><i className="fa fa-angle-double-right" /> Contact</a></Link></li>
+                  <li>
+                    <Link href="/">
+                      <a>
+                        <i className="fa fa-angle-double-right" /> Home
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/about">
+                      <a>
+                        <i className="fa fa-angle-double-right" /> About Us
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/product">
+                      <a>
+                        <i className="fa fa-angle-double-right" /> Product
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/blog">
+                      <a>
+                        <i className="fa fa-angle-double-right" /> Blog
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/contact">
+                      <a>
+                        <i className="fa fa-angle-double-right" /> Contact
+                      </a>
+                    </Link>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -79,11 +161,41 @@ const Footer = () => {
               <div className="widgets">
                 <h3>Usefull Links</h3>
                 <ul className="usefull-links">
-                  <li><Link href="/"><a ><i className="fa fa-angle-double-right" /> Home</a></Link></li>
-                  <li><Link href="/about"><a ><i className="fa fa-angle-double-right" /> About Us</a></Link></li>
-                  <li><Link href="/product"><a ><i className="fa fa-angle-double-right" /> Product</a></Link></li>
-                  <li><Link href="/blog"><a ><i className="fa fa-angle-double-right" /> Blog</a></Link></li>
-                  <li><Link href="/contact"><a ><i className="fa fa-angle-double-right" /> Contact</a></Link></li>
+                  <li>
+                    <Link href="/">
+                      <a>
+                        <i className="fa fa-angle-double-right" /> Home
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/about">
+                      <a>
+                        <i className="fa fa-angle-double-right" /> About Us
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/product">
+                      <a>
+                        <i className="fa fa-angle-double-right" /> Product
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/blog">
+                      <a>
+                        <i className="fa fa-angle-double-right" /> Blog
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/contact">
+                      <a>
+                        <i className="fa fa-angle-double-right" /> Contact
+                      </a>
+                    </Link>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -93,7 +205,17 @@ const Footer = () => {
           <div className="container">
             <div className="row">
               <div>
-                <p className='text-center'><i className="fa fa-copyright" /> 2021 <a href="https://prideconsultancy.com/" target="_blank" rel="noreferrer">PrideConsultancy.</a> All rights reserved.</p>
+                <p className="text-center">
+                  <i className="fa fa-copyright" /> 2021{" "}
+                  <a
+                    href="https://prideconsultancy.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    PrideConsultancy.
+                  </a>{" "}
+                  All rights reserved.
+                </p>
               </div>
               {/* <div className="col-lg-5 col-md-5">
                 <ul>
@@ -109,7 +231,7 @@ const Footer = () => {
       </footer>
       {/* End Footer Area */}
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

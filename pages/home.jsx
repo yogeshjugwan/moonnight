@@ -132,7 +132,7 @@ const Home = () => {
             <Blog />
             {/* End Our Blog Area */}
             {/* Start Testimonials Area*/}
-            <Clients />
+            {/* <Clients /> */}
             {/* End Testimonials Area*/}
 
         </div>

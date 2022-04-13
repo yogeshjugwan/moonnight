@@ -81,28 +81,28 @@ const Contact = () => {
                 <div className="contact-box">
                   <i className="fa fa-map-marker" />
                   <h4>Address</h4>
-                  <span>6000 Universal Blvd, Orlando, FL 32819, USA</span>
+                  <span>A-482/16, Gagan Vihar Bhopura Sahibabad Ghaziabad UP 201005</span>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 col-sm-6">
                 <div className="contact-box">
                   <i className="fa fa-phone" />
                   <h4>Phone</h4>
-                  <span><a href="#">+91 921 254-5874</a></span>
+                  <span><a href="tel:+91 6387 982 497">+91 6387 982 497</a></span>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 col-sm-6">
                 <div className="contact-box">
                   <i className="fa fa-envelope" />
                   <h4>Email</h4>
-                  <span><a href="#"><span className="__cf_email__" data-cfemail="e0898e868fa08885928f82898b85ce838f8d">[moonnight@gmail.com]</span></a></span>
+                  <span><a href="mailto:Info@moonnightgroup.com" type='email'><span className="__cf_email__" data-cfemail="e0898e868fa08885928f82898b85ce838f8d">Info@moonnightgroup.com</span></a></span>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 col-sm-6">
                 <div className="contact-box">
                 <i className="fa-brands fa-whatsapp"></i>
-                  <h4>Skype</h4>
-                  <span><a href="#">+91 921 254-5874</a></span>
+                  <h4>whatsapp</h4>
+                  <span><a href="tel:+91 6387 982 497">+91 6387 982 497</a></span>
                 </div>
               </div>
             </div>

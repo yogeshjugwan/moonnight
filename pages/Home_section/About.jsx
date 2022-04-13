@@ -1,40 +1,40 @@
 import React from 'react'
 import Link from 'next/link'
 const About = () => {
-    const aboutdata=[
-        {
-            "title":"All Brands",
-            "img":"bg-1",
-            "linkTitle":"Read More",
-            "link":"/products",
-            "icon":"fa fa-bicycle",
-            "discription":"Lorem Ipsum is simply dummy text of the printing and type setting industry."
-        },
-        {
-            "title":"Free Support",
-            "img":"bg-2",
-            "linkTitle":"Read More",
-            "link":"/contact",
-            "icon":"fa fa-life-ring",
-            "discription":"Lorem Ipsum is simply dummy text of the printing and type setting industry."
-        },
-        {
-            "title":"Dealership",
-            "img":"bg-3",
-            "linkTitle":"Read More",
-            "link":"/contact",
-            "icon":"fa fa-user",
-            "discription":"Lorem Ipsum is simply dummy text of the printing and type setting industry."
-        },
-        {
-            "title":"Affordable",
-            "img":"bg-4",
-            "linkTitle":"Read More",
-            "link":"/products",
-            "icon":"fa fa-bullseye",
-            "discription":"Lorem Ipsum is simply dummy text of the printing and type setting industry."
-        }
-    ]
+  const aboutdata=[
+    {
+        "title":"All Brands",
+        "img":"bg-1",
+        "linkTitle":"Read More",
+        "link":"/products",
+        "icon":"fa fa-bicycle",
+        "discription":"We have multiple brands of bikes designed and manufactured by MOON NIGHT GROUP."
+    },
+    {
+        "title":"Free Support",
+        "img":"bg-2",
+        "linkTitle":"Read More",
+        "link":"/contact",
+        "icon":"fa fa-life-ring",
+        "discription":"We love to hear from you Our support team is always with you."
+    },
+    {
+        "title":"Dealership",
+        "img":"bg-3",
+        "linkTitle":"Read More",
+        "link":"/contact",
+        "icon":"fa fa-user",
+        "discription":"You want to grow with the Moon Night Bikes Brand, Contact Now for our Dealership."
+    },
+    {
+        "title":"Affordable",
+        "img":"bg-4",
+        "linkTitle":"Read More",
+        "link":"/products",
+        "icon":"fa fa-bullseye",
+        "discription":" Our All bikes of category are at affordable price rather than popular brands in the indian market."
+    }
+]
   return (
     <div>{/* Start About Area */}
     <section className="about-area ptb-80">
@@ -54,7 +54,7 @@ const About = () => {
           {aboutdata.map((value,i)=>{return(
           <div key={i} className="col-lg-3 col-md-6 col-sm-6">
             <div className={`features-box ${value.img}`}>
-              <div className="content">
+              <div className="content" style={{height:"230px"}}>
                 <i className={value.icon} />
                 <h3>{value.title}</h3>
                 <p>{value.discription}</p>

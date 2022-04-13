@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Link from 'next/link'
 const Model = (props) => {
   return (
     <div><div
@@ -48,15 +48,15 @@ const Model = (props) => {
                   </li>
                 </ul>
                 <form>
-                  <input
+                  {/* <input
                     type="number"
                     name="quantity"
                     title="Qty"
                     className="form-control"
-                  />
-                  <button className="btn btn-primary">Buy Now</button>
+                  /> */}
+                  <button className="btn btn-primary"><a href="/productsInquiry" style={{color:"white"}}>Buy Now</a></button>
 
-                  <a
+                  {/* <a
                     href="#"
                     className="wishlist-compare"
                     title="Add To Wishlist"
@@ -70,7 +70,7 @@ const Model = (props) => {
                     title="Add To Compare"
                   >
                     <i className="fa fa-retweet"></i>
-                  </a>
+                  </a> */}
                 </form>
 
                 <p>
