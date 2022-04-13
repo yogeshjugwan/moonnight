@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 const Model = (props) => {
   return (
     <div><div
@@ -53,7 +54,7 @@ const Model = (props) => {
                     title="Qty"
                     className="form-control"
                   /> */}
-                  <button className="btn btn-primary"><a href="/productsInquiry" style={{color:"white"}}>Buy Now</a></button>
+                  <button className="btn btn-primary"><Link href="/productsInquiry" ><a target={"_blank"}  style={{color:"white"}}>Buy Now</a></Link></button>
 
                   {/* <a
                     href="#"

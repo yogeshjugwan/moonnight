@@ -8,7 +8,7 @@
     "preexport": "npm run build",
     "export": "next export",
     "prestart": "npm run export",
-    "start": "serve out"
+    "start": "next build && next export"
   },
   "dependencies": {
     "axios": "^0.26.1",
