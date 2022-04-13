@@ -115,8 +115,8 @@ const Equipment = () => {
             <div className="equipment-slider">
               <Slider {...settings}>
                 {Equipment.map((data,i)=>{return(
-                  <>
-                <div key={i} className="col-lg-12">
+                  < div key={i}>
+                <div  className="col-lg-12">
                   <div className="single-product">
                     <div className="product-image">
                       <Link  href="/products"><a>
@@ -205,7 +205,7 @@ const Equipment = () => {
                     </div>
                   </div>
                 </div>
-                </>
+                </div>
                   )})}
               </Slider>
             </div>

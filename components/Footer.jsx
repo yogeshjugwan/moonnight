@@ -35,7 +35,7 @@ const Footer = () => {
                     <i className="fa fa-envelope" />{" "}
                     <a href="mailto:moonnight@gmail.com">
                       {" "}
-                      <span><a href="mailto:Info@moonnightgroup.com" type='email'><span className="__cf_email__" data-cfemail="e0898e868fa08885928f82898b85ce838f8d">Info@moonnightgroup.com]</span></a></span>
+                      <span><a href="mailto:Info@moonnightgroup.com" type='email'><span className="__cf_email__" data-cfemail="e0898e868fa08885928f82898b85ce838f8d">Info@moonnightgroup.com</span></a></span>
                     </a>
                   </li>
                 </ul>

@@ -116,7 +116,7 @@ const Product = () => {
               <Slider {...settings}>
                 {Equipment.map((data,i) => {
                   return (
-                    <>
+                    <div key={i}>
                       <div key={i} className="item">
                         <div className="col-lg-12">
                           <div className="single-product">
@@ -216,7 +216,7 @@ const Product = () => {
                           </div>
                         </div>
                       </div>
-                    </>
+                    </div>
                   );
                 })}{" "}
               </Slider>
