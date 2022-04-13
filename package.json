@@ -4,11 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "preexport": "npm run build",
-    "export": "next export",
-    "prestart": "npm run export",
-    "start": "next build && next export"
+    "build": "next build && next export",
+    "prestart": "npm run export"
   },
   "dependencies": {
     "axios": "^0.26.1",
