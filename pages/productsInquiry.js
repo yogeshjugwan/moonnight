@@ -1,8 +1,9 @@
 import React from 'react'
 const productsInquiry = () => {
   return (
-    <div className='moonnightgroup'>
+    <div className='moonnightgroup '>
       <iframe id="moonnightgroup"
+      className='overflow-hidden'
         ancestors="true"
         title="moonnightgroup"
         width="100%" height="1134"

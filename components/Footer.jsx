@@ -25,7 +25,7 @@ const Footer = () => {
                 <ul className="contact-us">
                   <li>
                     <i className="fa fa-map-marker" /> A-482/16, Gagan Vihar
-                    Bhopura Sahibabad Ghaziabad UP 201005
+                    Bhopura Sahibabad Ghaziabad U.P.-201005 (INDIA)
                   </li>
                   <li>
                     <i className="fa fa-phone" />{" "}
@@ -212,7 +212,7 @@ const Footer = () => {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    PrideConsultancy.
+                    Prideconsultancy.com
                   </a>{" "}
                   All rights reserved.
                 </p>

@@ -81,7 +81,8 @@ const Contact = () => {
                 <div className="contact-box">
                   <i className="fa fa-map-marker" />
                   <h4>Address</h4>
-                  <span>A-482/16, Gagan Vihar Bhopura Sahibabad Ghaziabad UP 201005</span>
+                  <span>A-482/16, Gagan Vihar
+                    Bhopura Sahibabad Ghaziabad U.P.-201005 (INDIA)</span>
                 </div>
               </div>
               <div className="col-lg-3 col-md-6 col-sm-6">

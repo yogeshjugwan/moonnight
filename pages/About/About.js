@@ -48,7 +48,7 @@ const About = () => {
             "linkTitle":"Read More",
             "link":"/products",
             "icon":"fa fa-bullseye",
-            "discription":" Our All bikes of category are at affordable price rather than popular brands in the indian market."
+            "discription":" Our All bikes of category are at affordable price rather than popular brands in the Indian market."
         }
     ]
   return (

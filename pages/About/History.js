@@ -28,8 +28,8 @@ const History = () => {
                   </div>
                   <div className="timeline-body">
                     <p>
-                      Moon Night Bikes was started in 2021 by two enthusiastic and passionate personalities of Mr Shivam Jaiswal and  Rahul Kumar.
-                      Mr Shivam Jaiswal is the Founder of Moon Night Group. He is an enthusiastic personality. He has expertise in sales and business promotions.
+                      Moon Night Bikes was started in 2021 by two enthusiastic and passionate personalities of Mr Shivam kumar and  Rahul Kumar.
+                      Mr Shivam kumar is the Founder of Moon Night Group. He is an enthusiastic personality. He has expertise in sales and business promotions.
                       Mr Rahul Kumar is the Co-Founder of Moon Night Group. He has the expertise and is passionate about the cycle industry.
 
                     </p>
