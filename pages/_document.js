@@ -4,7 +4,7 @@ export default function Document() {
     return (
         <Html>
             <Head>
-                <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+                
                 {/* <!-- Bootstrap Min CSS --> */}
                 <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
                 {/* <!-- Animate Min CSS --> */}
