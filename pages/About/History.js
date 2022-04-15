@@ -28,8 +28,8 @@ const History = () => {
                   </div>
                   <div className="timeline-body">
                     <p>
-                      Moon Night Bikes was started in 2021 by two enthusiastic and passionate personalities of Mr Shivam kumar and  Rahul Kumar.
-                      Mr Shivam kumar is the Founder of Moon Night Group. He is an enthusiastic personality. He has expertise in sales and business promotions.
+                      Moon Night Bikes was started in 2021 by two enthusiastic and passionate personalities of Mr Shubham kumar and  Rahul Kumar.
+                      Mr Shubham kumar is the Founder of Moon Night Group. He is an enthusiastic personality. He has expertise in sales and business promotions.
                       Mr Rahul Kumar is the Co-Founder of Moon Night Group. He has the expertise and is passionate about the cycle industry.
 
                     </p>
@@ -48,7 +48,6 @@ const History = () => {
                   <div className="timeline-body">
                     <p>
                       We don’t just produce bikes, we build companions that empower everyone to enjoy stunning rides continuously. That’s why our bikes provide what we call that little ‘more’: the emotion of riding the perfect bike, comparatively than just ‘any’ bike. To make sure this eccentric feel forever, we offer a lifetime warranty* on all new frames as standard.
-
                     </p>
                   </div>
                 </div>

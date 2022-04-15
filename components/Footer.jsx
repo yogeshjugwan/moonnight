@@ -63,13 +63,6 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link href="/">
-                      <a href="#" className="google-plus">
-                        <i className="fa-brands fa-google-plus-g" />
-                      </a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/">
                       <a href="#" className="instagram">
                         <i className="fa-brands fa-instagram"></i>
                       </a>

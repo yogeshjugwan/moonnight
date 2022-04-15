@@ -19,5 +19,6 @@ p{
 }
 #moonnightgroup{
   z-index: 100 !important;
+  height: fit-content !important;
   overflow: hidden !important;
 }

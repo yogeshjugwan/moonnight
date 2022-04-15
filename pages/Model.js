@@ -85,22 +85,22 @@ const Model = (props) => {
           <ul>
             <li>
               <a href="#">
-                <i className="fa fa-facebook"></i> Share
+                <i className="fa-brands fa-facebook" ></i> Share
               </a>
             </li>
             <li>
               <a href="#">
-                <i className="fa fa-twitter"></i> Tweet
+                <i className="fa-brands fa-twitter" ></i> Tweet
               </a>
             </li>
             <li>
               <a href="#">
-                <i className="fa fa-google-plus"></i> Google+
+                <i className="fa-brands fa-instagram"></i> Instagram
               </a>
             </li>
             <li>
               <a href="#">
-                <i className="fa fa-linkedin"></i> Pinterest
+                <i className="fa-brands fa-linkedin-in"></i> Linkedin
               </a>
             </li>
           </ul>
