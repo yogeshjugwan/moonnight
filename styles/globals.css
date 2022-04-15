@@ -14,11 +14,7 @@ a {
 * {
   box-sizing: border-box;
 }
-p{
+
+p {
   text-align: justify;
-}
-#moonnightgroup{
-  z-index: 100 !important;
-  height: fit-content !important;
-  overflow: hidden !important;
 }
