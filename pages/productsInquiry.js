@@ -6,7 +6,7 @@ const productsInquiry = () => {
       className='overflow-hidden'
         ancestors="true"
         title="moonnightgroup"
-       
+        allowfullscreen
         scrolling="none"
         width="100%" height="1234"
         frameBorder="0" marginHeight="0" marginWidth="0"
