@@ -3,7 +3,7 @@
      {
         "id": 0,
         "title": "Quick View 0",
-        "img": "assets/img/new-product1.jpg",
+        "img": "/assets/img/new-product1.jpg",
         "discount": "20%",
         "name": " Polygon Bend RV - Gravel / Cyclocross Disc Bike 0",
         "pricemini": "$1020.00",
@@ -13,7 +13,7 @@
     {
         "id": 1,
         "title": "Quick View 1",
-        "img": "assets/img/new-product1.jpg",
+        "img": "/assets/img/new-product1.jpg",
         "discount": "20%",
         "name": " Polygon Bend RV - Gravel / Cyclocross Disc Bike 1",
         "pricemini": "$1021.00",
@@ -23,7 +23,7 @@
     {
         "id": 2,
         "title": "Quick View 2",
-        "img": "assets/img/new-product1.jpg",
+        "img": "/assets/img/new-product1.jpg",
         "discount": "20%",
         "name": " Polygon Bend RV - Gravel / Cyclocross Disc Bike 1",
         "pricemini": "$1020.00",
@@ -33,7 +33,7 @@
     {
         "id": 3,
         "title": "Quick View 3",
-        "img": "assets/img/new-product1.jpg",
+        "img": "/assets/img/new-product1.jpg",
         "discount": "20%",
         "name": " Polygon Bend RV - Gravel / Cyclocross Disc Bike 2",
         "pricemini": "$1020.00",
@@ -43,7 +43,7 @@
     {
         "id": 4,
         "title": "Quick View 4",
-        "img": "assets/img/new-product1.jpg",
+        "img": "/assets/img/new-product1.jpg",
         "discount": "20%",
         "name": " Polygon Bend RV - Gravel / Cyclocross Disc Bike 3",
         "pricemini": "$1020.00",
@@ -53,7 +53,7 @@
     {
         "id": 5,
         "title": "Quick View 5",
-        "img": "assets/img/new-product1.jpg",
+        "img": "/assets/img/new-product1.jpg",
         "discount": "20%",
         "name": " Polygon Bend RV - Gravel / Cyclocross Disc Bike 4",
         "pricemini": "$1020.00",
@@ -63,7 +63,7 @@
     {
         "id": 6,
         "title": "Quick View 6",
-        "img": "assets/img/new-product1.jpg",
+        "img": "/assets/img/new-product1.jpg",
         "discount": "20%",
         "name": " Polygon Bend RV - Gravel / Cyclocross Disc Bike 5",
         "pricemini": "$1020.00",
@@ -73,7 +73,7 @@
     {
         "id": 7,
         "title": "Quick View 7",
-        "img": "assets/img/new-product1.jpg",
+        "img": "/assets/img/new-product1.jpg",
         "discount": "20%",
         "name": " Polygon Bend RV - Gravel / Cyclocross Disc Bike 6",
         "pricemini": "$1020.00",
@@ -83,7 +83,7 @@
     {
         "id": 8,
         "title": "Quick View 8",
-        "img": "assets/img/new-product1.jpg",
+        "img": "/assets/img/new-product1.jpg",
         "discount": "20%",
         "name": " Polygon Bend RV - Gravel / Cyclocross Disc Bike 7",
         "pricemini": "$1020.00",
@@ -93,7 +93,7 @@
     {
         "id": 9,
         "title": "Quick View 9",
-        "img": "assets/img/new-product1.jpg",
+        "img": "/assets/img/new-product1.jpg",
         "discount": "20%",
         "name": " Polygon Bend RV - Gravel / Cyclocross Disc Bike 8",
         "pricemini": "$1020.00",
@@ -103,7 +103,7 @@
     {
         "id": 10,
         "title": "Quick View",
-        "img": "assets/img/new-product1.jpg",
+        "img": "/assets/img/new-product1.jpg",
         "discount": "20%",
         "name": " Polygon Bend RV - Gravel / Cyclocross Disc Bike 9",
         "pricemini": "$1020.00",
@@ -113,7 +113,7 @@
     {
         "id": 11,
         "title": "Quick View",
-        "img": "assets/img/new-product1.jpg",
+        "img": "/assets/img/new-product1.jpg",
         "discount": "20%",
         "name": " Polygon Bend RV - Gravel / Cyclocross Disc Bike 10",
         "pricemini": "$1020.00",
@@ -123,7 +123,7 @@
     {
         "id": 12,
         "title": "Quick View",
-        "img": "assets/img/new-product1.jpg",
+        "img": "/assets/img/new-product1.jpg",
         "discount": "20%",
         "name": " Polygon Bend RV - Gravel / Cyclocross Disc Bike 11",
         "pricemini": "$1020.00",
@@ -133,7 +133,7 @@
     {
         "id": 13,
         "title": "Quick View",
-        "img": "assets/img/new-product1.jpg",
+        "img": "/assets/img/new-product1.jpg",
         "discount": "20%",
         "name": " Polygon Bend RV - Gravel / Cyclocross Disc Bike 12",
         "pricemini": "$1020.00",
@@ -143,7 +143,7 @@
     {
         "id": 14,
         "title": "Quick View",
-        "img": "assets/img/new-product1.jpg",
+        "img": "/assets/img/new-product1.jpg",
         "discount": "20%",
         "name": " Polygon Bend RV - Gravel / Cyclocross Disc Bike 13",
         "pricemini": "$1020.00",
@@ -153,7 +153,7 @@
     {
         "id": 15,
         "title": "Quick View",
-        "img": "assets/img/new-product1.jpg",
+        "img": "/assets/img/new-product1.jpg",
         "discount": "20%",
         "name": " Polygon Bend RV - Gravel / Cyclocross Disc Bike 14",
         "pricemini": "$1020.00",
@@ -163,7 +163,7 @@
     {
         "id": 16,
         "title": "Quick View",
-        "img": "assets/img/new-product1.jpg",
+        "img": "/assets/img/new-product1.jpg",
         "discount": "20%",
         "name": " Polygon Bend RV - Gravel / Cyclocross Disc Bike 15",
         "pricemini": "$1020.00",
@@ -173,7 +173,7 @@
     {
         "id": 17,
         "title": "Quick View",
-        "img": "assets/img/new-product1.jpg",
+        "img": "/assets/img/new-product1.jpg",
         "discount": "20%",
         "name": " Polygon Bend RV - Gravel / Cyclocross Disc Bike 16",
         "pricemini": "$1020.00",
@@ -183,7 +183,7 @@
     {
         "id": 18,
         "title": "Quick View",
-        "img": "assets/img/new-product1.jpg",
+        "img": "/assets/img/new-product1.jpg",
         "discount": "20%",
         "name": " Polygon Bend RV - Gravel / Cyclocross Disc Bike 17",
         "pricemini": "$1020.00",
@@ -193,7 +193,7 @@
     {
         "id": 19,
         "title": "Quick View",
-        "img": "assets/img/new-product1.jpg",
+        "img": "/assets/img/new-product1.jpg",
         "discount": "20%",
         "name": " Polygon Bend RV - Gravel / Cyclocross Disc Bike 18",
         "pricemini": "$1020.00",
