@@ -6,31 +6,31 @@ export default function Document() {
             <Head>
                 
                 {/* <!-- Bootstrap Min CSS --> */}
-                <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+                <link scroll={false} rel="stylesheet" href="/assets/css/bootstrap.min.css" />
                 {/* <!-- Animate Min CSS --> */}
-                <link rel="stylesheet" href="assets/css/animate.css" />
+                <link scroll={false} rel="stylesheet" href="/assets/css/animate.css" />
                 {/* <!-- Font Awesome Min CSS --> */}
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+                <link scroll={false} rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
                 {/* <!-- Magnific Popup Min CSS --> */}
-                <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+                <link scroll={false} rel="stylesheet" href="/assets/css/magnific-popup.css" />
                 {/* <!-- IcoFont Min CSS --> */}
-                <link rel="stylesheet" href="assets/css/icofont.css" />
+                <link scroll={false} rel="stylesheet" href="/assets/css/icofont.css" />
                 {/* <!-- Owl Carousel Min CSS --> */}
-                <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+                <link scroll={false} rel="stylesheet" href="/assets/css/owl.carousel.min.css" />
                 {/* <!-- Classy Nav Min CSS--> */}
-                <link rel="stylesheet" href="assets/css/classy-nav.min.css" />
+                <link scroll={false} rel="stylesheet" href="/assets/css/classy-nav.min.css" />
                 {/* <!-- Gallery Slider CSS--> */}
-                <link rel="stylesheet" href="assets/css/gallery-slider.css" />
+                <link scroll={false} rel="stylesheet" href="/assets/css/gallery-slider.css" />
                 {/* <!-- Style CSS --> */}
-                <link rel="stylesheet" href="assets/css/style.css" />
+                <link scroll={false} rel="stylesheet" href="/assets/css/style.css" />
                 {/* <!-- Responsive Min CSS --> */}
-                <link rel="stylesheet" href="assets/css/responsive.css" />
+                <link scroll={false} rel="stylesheet" href="/assets/css/responsive.css" />
                 {/* <!-- Color Default CSS -->	 */}
-                <link rel="stylesheet" href="assets/css/color/color-default.css" />
+                <link scroll={false} rel="stylesheet" href="/assets/css/color/color-default.css" />
                 {/* <!-- Color Switcher CSS -->	 */}
-                <link rel="stylesheet" href="assets/dist/color-switcher.css" />
+                <link scroll={false} rel="stylesheet" href="/assets/dist/color-switcher.css" />
 
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+                <link scroll={false} rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
 
             </Head>
             <body>

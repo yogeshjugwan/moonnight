@@ -57,7 +57,7 @@ const Clients = () => {
                                         <div className="single-feedback" >
                                             <div>
                                                 <div className="client-pic">
-                                                    <img src="assets/img/client-avatar1.jpg" alt="client-avatar" />
+                                                    <img src="/assets/img/client-avatar1.jpg" alt="client-avatar" />
                                                 </div>
                                                 <h4>David Smith</h4>
                                                 <span>@Google CEO</span>
@@ -68,7 +68,7 @@ const Clients = () => {
                                         <div className="single-feedback">
                                             <div>
                                             <div className="client-pic">
-                                                <img src="assets/img/client-avatar2.jpg" alt="client-avatar" />
+                                                <img src="/assets/img/client-avatar2.jpg" alt="client-avatar" />
                                             </div>
                                             <h4>John Rock</h4>
                                             <span>@Facebook CEO</span>
@@ -77,7 +77,7 @@ const Clients = () => {
                                         </div>
                                         <div className="single-feedback">
                                            <div><div className="client-pic">
-                                                <img src="assets/img/client-avatar3.jpg" alt="client-avatar" />
+                                                <img src="/assets/img/client-avatar3.jpg" alt="client-avatar" />
                                             </div>
                                             <h4>Olivar Thomas</h4>
                                             <span>@Twitter CEO</span>

@@ -1,7 +1,7 @@
 import React from 'react'
-const BackDrower = ({show,click}) => {
-  return (show &&
-    <div className='backdrop' onClick={click}></div>
+const BackDrower = (props) => {
+  return (props.show &&
+    <div className='backdrop' onClick={props.click}></div>
   )
 }
 

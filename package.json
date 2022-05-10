@@ -1,6 +1,5 @@
 {
   "name": "moonnightgroup",
-  "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -12,6 +11,7 @@
   "dependencies": {
     "axios": "^0.26.1",
     "dotenv": "^16.0.0",
+    "export": "^0.1.337",
     "googleapis": "^100.0.0",
     "next": "12.1.0",
     "react": "17.0.2",
@@ -19,6 +19,7 @@
     "react-hook-form": "^7.29.0",
     "react-responsive-carousel": "^3.2.23",
     "react-slick": "^0.28.1",
+    "run": "^1.4.0",
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {

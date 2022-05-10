@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Head from "next/head";
 import Model from "./Model";
+import Link from 'next/link'
 const Products = () => {
   const [items, setItems] = useState([]);
   const [modalData, setModalData] = useState([]);
@@ -76,7 +77,7 @@ const Products = () => {
                   <div key={data.id} className="col-lg-3 col-md-6">
                     <div className="single-product">
                       <div className="product-image">
-                        <img src="assets/img/bike1.jpg" alt="bike" />
+                        <img src={data.img} alt="bike" />
                         <div className="hover-box">
                           <button
                             type="button"
@@ -103,7 +104,22 @@ const Products = () => {
 
                       <div className="product-content">
                         <h3>
-                          <a href="#">{data.name}</a>
+                          <button
+                          scroll={false}
+                          type="button"
+                            className="btn btn-outline-primary"
+                            data-bs-toggle="modal"
+                            data-bs-target="#exampleModalCenter" href="#" onClick={() =>
+                              getProduct(
+                                data.title,
+                                data.name,
+                                data.img,
+                                data.discount,
+                                data.pricemini,
+                                data.pricemax,
+                                data.description
+                              )
+                            }>{data.name}</button>
                         </h3>
                         <p>
                           <span>{data.pricemini}</span>

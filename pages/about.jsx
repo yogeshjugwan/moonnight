@@ -1,14 +1,13 @@
 import React from "react";
 import Link from "next/link";
-import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Head from "next/head";
-import FunFactsArea from "./Home_section/FunFactsArea";
-import History from "./About/History";
-import About from "./About/About";
-import Vision from "./About/Vision";
-import PartnerArea from "./About/PartnerArea";
+import FunFactsArea from "./home_section/FunFactsArea";
+import History from "./about/History";
+import About from "./about/About";
+import Vision from "./about/Vision";
+import PartnerArea from "./about/PartnerArea";
 const about = () => {
  
   return (
@@ -31,7 +30,7 @@ const about = () => {
                   <div className="col-lg-6 col-md-6">
                     <ul>
                       <li>
-                        <Link href="/">
+                        <Link scroll={false} href="/" as={"/"}>
                           <a>
                             <i className="fa fa-home" /> Home
                           </a>

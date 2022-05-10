@@ -54,7 +54,7 @@ const Blog = () => {
               {/* Our <span>Blog</span> */}
             </h2>
             <img
-              src="assets/img/section-title-logo.png"
+              src="/assets/img/section-title-logo.png"
               alt="section-title-logo"
             />
           </div>
@@ -64,14 +64,14 @@ const Blog = () => {
                 <div className="col-lg-12">
                   <div className="single-blog-post">
                     <div className="thumb">
-                      <img src="assets/img/blog-img1.jpg" alt="blog-img" />
+                      <img src="/assets/img/blog-img1.jpg" alt="blog-img" />
                       <div className="date">
                         <span>15 Jan 2021</span>
                       </div>
                     </div>
                     <div className="post-content">
                       <h3>
-                        <Link href={`/blogposts/learn-javascript`}>
+                        <Link scroll={false} href={`/blogposts/learn-javascript`}>
                           <a>Fixed gear bikes grab spot in pedal market</a>
                         </Link>
                       </h3>
@@ -106,7 +106,7 @@ const Blog = () => {
                 <div className="col-lg-12">
                   <div className="single-blog-post">
                     <div className="thumb">
-                      <img src="assets/img/blog-img2.jpg" alt="blog-img" />
+                      <img src="/assets/img/blog-img2.jpg" alt="blog-img" />
                       <div className="date">
                         <span>15 Jan 2021</span>
                       </div>
@@ -146,7 +146,7 @@ const Blog = () => {
                 <div className="col-lg-12">
                   <div className="single-blog-post">
                     <div className="thumb">
-                      <img src="assets/img/blog-img3.jpg" alt="blog-img" />
+                      <img src="/assets/img/blog-img3.jpg" alt="blog-img" />
                       <div className="date">
                         <span>15 Jan 2021</span>
                       </div>
@@ -188,7 +188,7 @@ const Blog = () => {
                 <div className="col-lg-12">
                   <div className="single-blog-post">
                     <div className="thumb">
-                      <img src="assets/img/blog-img4.jpg" alt="blog-img" />
+                      <img src="/assets/img/blog-img4.jpg" alt="blog-img" />
                       <div className="date">
                         <span>15 Jan 2021</span>
                       </div>
@@ -230,7 +230,7 @@ const Blog = () => {
                 <div className="col-lg-12">
                   <div className="single-blog-post">
                     <div className="thumb">
-                      <img src="assets/img/blog-img5.jpg" alt="blog-img" />
+                      <img src="/assets/img/blog-img5.jpg" alt="blog-img" />
                       <div className="date">
                         <span>15 Jan 2021</span>
                       </div>
@@ -273,7 +273,7 @@ const Blog = () => {
                 <div className="col-lg-12">
                   <div className="single-blog-post">
                     <div className="thumb">
-                      <img src="assets/img/blog-img6.jpg" alt="blog-img" />
+                      <img src="/assets/img/blog-img6.jpg" alt="blog-img" />
                       <div className="date">
                         <span>15 Jan 2021</span>
                       </div>
@@ -315,7 +315,7 @@ const Blog = () => {
                 <div className="col-lg-12">
                   <div className="single-blog-post">
                     <div className="thumb">
-                      <img src="assets/img/blog-img7.jpg" alt="blog-img" />
+                      <img src="/assets/img/blog-img7.jpg" alt="blog-img" />
                       <div className="date">
                         <span>15 Jan 2021</span>
                       </div>
@@ -357,7 +357,7 @@ const Blog = () => {
                 <div className="col-lg-12">
                   <div className="single-blog-post">
                     <div className="thumb">
-                      <img src="assets/img/blog-img8.jpg" alt="blog-img" />
+                      <img src="/assets/img/blog-img8.jpg" alt="blog-img" />
                       <div className="date">
                         <span>15 Jan 2021</span>
                       </div>
@@ -399,7 +399,7 @@ const Blog = () => {
                 <div className="col-lg-12">
                   <div className="single-blog-post">
                     <div className="thumb">
-                      <img src="assets/img/blog-img9.jpg" alt="blog-img" />
+                      <img src="/assets/img/blog-img9.jpg" alt="blog-img" />
                       <div className="date">
                         <span>15 Jan 2021</span>
                       </div>

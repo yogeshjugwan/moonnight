@@ -59,7 +59,7 @@ const About = () => {
                 <h3>{value.title}</h3>
                 <p>{value.discription}</p>
               </div>
-            <Link href={value.link} ><a className="btn btn-primary">{value.linkTitle}</a></Link>
+            <Link scroll={false} href={value.link} ><a className="btn btn-primary">{value.linkTitle}</a></Link>
             </div>
           </div>
           )})}

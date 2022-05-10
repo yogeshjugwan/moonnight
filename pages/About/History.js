@@ -10,7 +10,7 @@ const History = () => {
           </h2>
           <img
             className="bg-white"
-            src="assets/img/section-title-logo.png"
+            src="/assets/img/section-title-logo.png"
             alt="section-title-logo"
           />
         </div>

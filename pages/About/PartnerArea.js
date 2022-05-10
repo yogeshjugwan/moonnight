@@ -6,25 +6,25 @@ import "slick-carousel/slick/slick-theme.css";
 const PartnerArea = () => {
     const aboutPartnerImg = [
         {
-          img: "assets/img/partner1.png",
+          img: "/assets/img/partner1.png",
         },
         {
-          img: "assets/img/partner2.png",
+          img: "/assets/img/partner2.png",
         },
         {
-          img: "assets/img/partner3.png",
+          img: "/assets/img/partner3.png",
         },
         {
-          img: "assets/img/partner4.png",
+          img: "/assets/img/partner4.png",
         },
         {
-          img: "assets/img/partner5.png",
+          img: "/assets/img/partner5.png",
         },
         {
-          img: "assets/img/partner6.png",
+          img: "/assets/img/partner6.png",
         },
         {
-          img: "assets/img/partner7.png",
+          img: "/assets/img/partner7.png",
         },
       ];
     var settings = {
@@ -70,7 +70,7 @@ const PartnerArea = () => {
           Our <span>Partner</span>
         </h2>
         <img
-          src="assets/img/section-title-logo.png"
+          src="/assets/img/section-title-logo.png"
           alt="section-title-logo"
         />
       </div>
@@ -80,7 +80,7 @@ const PartnerArea = () => {
             {aboutPartnerImg.map((value, i) => {
               return (
                 <div key={i} className="item">
-                  <Link href="#">
+                  <Link scroll={false} href="#">
                     <a>
                       <img src={value.img} alt="partner1" />
                     </a>

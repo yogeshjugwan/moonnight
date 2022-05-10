@@ -838,17 +838,17 @@ Main Banner Area CSS
 }
 
 .item-bg-one {
-  background-image: url(../../assets/img/home-bg-1.jpg);
+  background-image: url(../..//assets/img/home-bg-1.jpg);
   background-position: center top;
 }
 
 .item-bg-two {
-  background-image: url(../../assets/img/home-bg-2.jpg);
+  background-image: url(../..//assets/img/home-bg-2.jpg);
   background-position: center top;
 }
 
 .item-bg-three {
-  background-image: url(../../assets/img/home-bg-3.jpg);
+  background-image: url(../..//assets/img/home-bg-3.jpg);
 }
 
 .main-banner .d-table-cell {
@@ -1016,19 +1016,19 @@ About Area CSS
 }
 
 .features-box.bg-1 {
-  background-image: url(../../assets/img/upcoming-bike-1.jpg);
+  background-image: url(../..//assets/img/upcoming-bike-1.jpg);
 }
 
 .features-box.bg-2 {
-  background-image: url(../../assets/img/upcoming-bike-2.jpg);
+  background-image: url(../..//assets/img/upcoming-bike-2.jpg);
 }
 
 .features-box.bg-3 {
-  background-image: url(../../assets/img/upcoming-bike-3.jpg);
+  background-image: url(../..//assets/img/upcoming-bike-3.jpg);
 }
 
 .features-box.bg-4 {
-  background-image: url(../../assets/img/upcoming-bike-4.jpg);
+  background-image: url(../..//assets/img/upcoming-bike-4.jpg);
 }
 
 .features-box::before {
@@ -1535,7 +1535,7 @@ Fun Facts Area CSS
 */
 
 .fun-facts-area {
-  background-image: url(../../assets/img/fun-facts-bg.jpg);
+  background-image: url(../..//assets/img/fun-facts-bg.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1648,7 +1648,7 @@ Sale Product Area CSS
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  background-image: url(../../assets/img/sale-product-bg.jpg);
+  background-image: url(../..//assets/img/sale-product-bg.jpg);
   background-attachment: fixed;
 }
 
@@ -2108,7 +2108,7 @@ Testimonials Area CSS
 
 .testimonials-area {
   position: relative;
-  background: url(../../assets/img/testimonial-bg.jpg);
+  background: url(../..//assets/img/testimonial-bg.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -2258,7 +2258,7 @@ Page Title Area CSS
 */
 
 .page-title {
-  background-image: url(../../assets/img/page-title-bg.jpg);
+  background-image: url(../..//assets/img/page-title-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -3944,7 +3944,7 @@ Contact Area CSS
   top: 0;
   width: 48%;
   height: 100%;
-  background-image: url(../../assets/img/home-bg-3.jpg);
+  background-image: url(../..//assets/img/home-bg-3.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3958,7 +3958,7 @@ Contact Area CSS
     top: 0;
     width: 48%;
     height: 100%;
-    background-image: url(../../assets/img/home-bg-3.jpg);
+    background-image: url(../..//assets/img/home-bg-3.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -3991,15 +3991,15 @@ Main Banner Two Area CSS
 }
 
 .item-bg-four {
-  background-image: url(../../assets/img/home-bg-4.jpg);
+  background-image: url(../..//assets/img/home-bg-4.jpg);
 }
 
 .item-bg-five {
-  background-image: url(../../assets/img/home-bg-5.jpg);
+  background-image: url(../..//assets/img/home-bg-5.jpg);
 }
 
 .item-bg-six {
-  background-image: url(../../assets/img/home-bg-6.jpg);
+  background-image: url(../..//assets/img/home-bg-6.jpg);
 }
 
 .main-banner-two .main-banner-text {
@@ -4201,7 +4201,7 @@ Footer Area CSS
 */
 
 .footer-area {
-  background-image: url(../../assets/img/footer-pattern.png);
+  background-image: url(../..//assets/img/footer-pattern.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

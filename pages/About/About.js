@@ -5,16 +5,16 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 const About = () => {
   const aboutImg = [
     {
-      img: "assets/img/about-img-1.jpg",
+      img: "/assets/img/about-img-1.jpg",
     },
     {
-      img: "assets/img/about-img-2.jpg",
+      img: "/assets/img/about-img-2.jpg",
     },
     {
-      img: "assets/img/about-img-3.jpg",
+      img: "/assets/img/about-img-3.jpg",
     },
     {
-      img: "assets/img/about-img-5.jpg",
+      img: "/assets/img/about-img-5.jpg",
     },
   ];
   const aboutdata=[
@@ -59,7 +59,7 @@ const About = () => {
             Trust, Reciprocation, Efficiency, and Innovation
           </h2>
           <img
-            src="assets/img/section-title-logo.png"
+            src="/assets/img/section-title-logo.png"
             alt="section-title-logo"
           />
         </div>
@@ -134,7 +134,7 @@ const About = () => {
                 <h3>{value.title}</h3>
                 <p>{value.discription}</p>
               </div>
-            <Link href={value.link} ><a className="btn btn-primary">{value.linkTitle}</a></Link>
+            <Link scroll={false} href={value.link} ><a className="btn btn-primary">{value.linkTitle}</a></Link>
             </div>
           </div>
           )})}

@@ -54,7 +54,7 @@ const Model = (props) => {
                     title="Qty"
                     className="form-control"
                   /> */}
-                  <button className="btn btn-primary"><Link href="/productsInquiry" ><a target={"_blank"}  style={{color:"white"}}>Buy Now</a></Link></button>
+                  <button className="btn btn-primary"><Link scroll={false} href="/productsInquiry" ><a target={"_blank"}  style={{color:"white"}}>Buy Now</a></Link></button>
 
                   {/* <a
                     href="#"

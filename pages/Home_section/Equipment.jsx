@@ -107,7 +107,7 @@ const Equipment = () => {
               <span>Bikes</span> Equipment
             </h2>
             <img
-              src="assets/img/section-title-logo.png"
+              src="/assets/img/section-title-logo.png"
               alt="section-title-logo"
             />
           </div>
@@ -119,9 +119,9 @@ const Equipment = () => {
                 <div  className="col-lg-12">
                   <div className="single-product">
                     <div className="product-image">
-                      <Link  href="/products"><a>
+                      <Link scroll={false}  href="/products"><a>
                         <img
-                          src="assets/img/equipment-img1.jpg"
+                          src="/assets/img/equipment-img1.jpg"
                           alt="equipment-img"
                         />
                       </a></Link>
@@ -132,7 +132,7 @@ const Equipment = () => {
                     </div>
                     <div className="product-content">
                       <h3>
-                        <Link href="/products"><a>{data.name}</a></Link>
+                        <Link scroll={false} href="/products" as="/products"><a>{data.name}</a></Link>
                       </h3>
                       <p>
                         <span>{data.actualPrice}</span>{data.price}
@@ -163,9 +163,9 @@ const Equipment = () => {
                 <div className="col-lg-12">
                   <div className="single-product">
                     <div className="product-image">
-                      <Link  href="/products"><a>
+                      <Link scroll={false}  href="/products"><a>
                         <img
-                          src="assets/img/equipment-img2.jpg"
+                          src="/assets/img/equipment-img2.jpg"
                           alt="equipment-img"
                         />
                       </a></Link>
@@ -176,7 +176,7 @@ const Equipment = () => {
                     </div>
                     <div className="product-content">
                       <h3>
-                      <Link href="/products"><a>{data.name}</a></Link>
+                      <Link scroll={false} href="/products" as="/products"><a>{data.name}</a></Link>
                       </h3>
                       <p>
                       <span>{data.actualPrice}</span>{data.price}

@@ -107,7 +107,7 @@ const Product = () => {
               <span>New</span> Products
             </h2>
             <img
-              src="assets/img/section-title-logo.png"
+              src="/assets/img/section-title-logo.png"
               alt="section-title-logo"
             />
           </div>
@@ -121,10 +121,10 @@ const Product = () => {
                         <div className="col-lg-12">
                           <div className="single-product">
                             <div className="product-image">
-                              <Link href="/products">
+                              <Link scroll={false} href="/products" as="/products">
                                 <a>
                                   <img
-                                    src="assets/img/new-product1.jpg"
+                                    src="/assets/img/new-product1.jpg"
                                     alt="new-product"
                                   />
                                 </a>
@@ -136,7 +136,7 @@ const Product = () => {
                             </div>
                             <div className="product-content">
                               <h3>
-                                <Link href="/products">
+                                <Link scroll={false} href="/products" as="/products">
                                   <a>{data.name}</a>
                                 </Link>
                               </h3>
@@ -169,10 +169,10 @@ const Product = () => {
                         <div className="col-lg-12">
                           <div className="single-product">
                             <div className="product-image">
-                              <Link href="/products">
+                              <Link scroll={false} href="/products" as="/products">
                                 <a>
                                   <img
-                                    src="assets/img/new-product2.jpg"
+                                    src="/assets/img/new-product2.jpg"
                                     alt="new-product"
                                   />
                                 </a>
@@ -184,7 +184,7 @@ const Product = () => {
                             </div>
                             <div className="product-content">
                               <h3>
-                                <Link href="/products">
+                                <Link scroll={false} href="/products" as="/products">
                                   <a>{data.name}</a>
                                 </Link>
                               </h3>

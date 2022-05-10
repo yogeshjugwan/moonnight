@@ -8,57 +8,57 @@ const Categories = () => {
     const categoriesData = [
         {
             "title": "XC",
-            "img": "assets/img/categorie-bike1.jpg",
+            "img": "/assets/img/categorie-bike1.jpg",
             "link": "#"
         },
         {
             "title": "Trail",
-            "img": "assets/img/categorie-bike2.jpg",
+            "img": "/assets/img/categorie-bike2.jpg",
             "link": "#"
         },
         {
             "title": "Electric",
-            "img": "assets/img/categorie-bike3.jpg",
+            "img": "/assets/img/categorie-bike3.jpg",
             "link": "#"
         },
         {
             "title": "BMX",
-            "img": "assets/img/categorie-bike4.jpg",
+            "img": "/assets/img/categorie-bike4.jpg",
             "link": "#"
         },
         {
             "title": "Mountain",
-            "img": "assets/img/categorie-bike5.jpg",
+            "img": "/assets/img/categorie-bike5.jpg",
             "link": "#"
         },
         {
             "title": "Speed",
-            "img": "assets/img/categorie-bike6.jpg",
+            "img": "/assets/img/categorie-bike6.jpg",
             "link": "#"
         },
         {
             "title": "Comfort",
-            "img": "assets/img/categorie-bike7.jpg",
+            "img": "/assets/img/categorie-bike7.jpg",
             "link": "#"
         },
         {
             "title": "Performance",
-            "img": "assets/img/categorie-bike8.jpg",
+            "img": "/assets/img/categorie-bike8.jpg",
             "link": "#"
         },
         {
             "title": "Triathlon",
-            "img": "assets/img/categorie-bike9.jpg",
+            "img": "/assets/img/categorie-bike9.jpg",
             "link": "#"
         },
         {
             "title": "Fat",
-            "img": "assets/img/categorie-bike10.jpg",
+            "img": "/assets/img/categorie-bike10.jpg",
             "link": "#"
         },
         {
             "title": "Dirt",
-            "img": "assets/img/categorie-bike11.jpg",
+            "img": "/assets/img/categorie-bike11.jpg",
             "link": "#"
         },
 
@@ -115,7 +115,7 @@ const Categories = () => {
                 <div className="container">
                     <div className="section-title">
                         <h2><span>Bikes</span> categories</h2>
-                        <img src="assets/img/section-title-logo.png" alt="section-title-logo" />
+                        <img src="/assets/img/section-title-logo.png" alt="section-title-logo" />
                     </div>
                     <div className="row">
                         <div className="categories-bike-slider">

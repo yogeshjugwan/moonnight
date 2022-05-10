@@ -1,5 +1,5 @@
 import React from 'react'
-import Blog from './Home_section/Blog'
+import Blog from './home_section/Blog'
 import Head from 'next/head'
 import Link from 'next/link'
 const blog = () => {
@@ -23,7 +23,7 @@ const blog = () => {
                   </div>
                   <div className="col-lg-6 col-md-6">
                     <ul>
-                      <li><Link href="/"><a><i className="fa fa-home" /> Home</a></Link></li>
+                      <li><Link scroll={false} href="/"><a><i className="fa fa-home" /> Home</a></Link></li>
                       <li><i className="fa fa-angle-right" /></li>
                       <li className="active">Bags &amp; Storage</li>
                     </ul>

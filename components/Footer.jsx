@@ -11,11 +11,11 @@ const Footer = () => {
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="widgets">
                 <div className="footer-logo">
-                  <Link href="/">
+                  <Link scroll={false} href="/" as="/">
                     <a>
                       {" "}
                       <img
-                        src="assets/img/logo.png"
+                        src="/assets/img/logo.png"
                         alt="logo"
                         width={"100px"}
                       />
@@ -41,28 +41,28 @@ const Footer = () => {
                 </ul>
                 <ul className="social">
                   <li>
-                    <Link href="/">
+                    <Link scroll={false} href="/" as="/">
                       <a href="#" className="facebook">
                         <i className="fa-brands fa-facebook" />
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/">
+                    <Link scroll={false} href="/" as="/">
                       <a href="#" className="twitter">
                         <i className="fa-brands fa-twitter" />
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/">
+                    <Link scroll={false} href="/" as="/">
                       <a href="#" className="linkedin">
                         <i className="fa-brands fa-linkedin-in" />
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/">
+                    <Link scroll={false} href="/" as="/">
                       <a href="#" className="instagram">
                         <i className="fa-brands fa-instagram"></i>
                       </a>
@@ -76,35 +76,35 @@ const Footer = () => {
                 <h3>Usefull Links</h3>
                 <ul className="usefull-links">
                   <li>
-                    <Link href="/">
+                    <Link scroll={false} href="/" as="/">
                       <a>
                         <i className="fa fa-angle-double-right" /> Home
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/about">
+                    <Link scroll={false} href="/about" as="/about">
                       <a>
                         <i className="fa fa-angle-double-right" /> About Us
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/product">
+                    <Link scroll={false} href="/product" as="/product">
                       <a>
                         <i className="fa fa-angle-double-right" /> Product
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/blog">
+                    <Link scroll={false} href="/blog" as="/blog">
                       <a>
                         <i className="fa fa-angle-double-right" /> Blog
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/contact">
+                    <Link scroll={false} href="/contact" as="/contact">
                       <a>
                         <i className="fa fa-angle-double-right" /> Contact
                       </a>
@@ -150,40 +150,40 @@ const Footer = () => {
                 </div>
               </div>
             </div> */}
-            <div className="col-lg-4 col-md-6 col-sm-6">
+            {/* <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="widgets">
                 <h3>Usefull Links</h3>
                 <ul className="usefull-links">
                   <li>
-                    <Link href="/">
+                    <Link scroll={false} href="/" as="/">
                       <a>
                         <i className="fa fa-angle-double-right" /> Home
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/about">
+                    <Link scroll={false} href="/about" as="/about">
                       <a>
                         <i className="fa fa-angle-double-right" /> About Us
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/product">
+                    <Link scroll={false} href="/product" as="/product">
                       <a>
                         <i className="fa fa-angle-double-right" /> Product
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/blog">
+                    <Link scroll={false} href="/blog" as="/blog">
                       <a>
                         <i className="fa fa-angle-double-right" /> Blog
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/contact">
+                    <Link scroll={false} href="/contact" as="/contact">
                       <a>
                         <i className="fa fa-angle-double-right" /> Contact
                       </a>
@@ -191,7 +191,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="copyright-area">
@@ -212,10 +212,10 @@ const Footer = () => {
               </div>
               {/* <div className="col-lg-5 col-md-5">
                 <ul>
-                  <li><a href="#"><img src="assets/img/paypal.png" alt="paypal" /></a></li>
-                  <li><a href="#"><img src="assets/img/visa.png" alt="visa" /></a></li>
-                  <li><a href="#"><img src="assets/img/master-card.png" alt="master-card" /></a></li>
-                  <li><a href="#"><img src="assets/img/maestro.png" alt="maestro" /></a></li>
+                  <li><a href="#"><img src="/assets/img/paypal.png" alt="paypal" /></a></li>
+                  <li><a href="#"><img src="/assets/img/visa.png" alt="visa" /></a></li>
+                  <li><a href="#"><img src="/assets/img/master-card.png" alt="master-card" /></a></li>
+                  <li><a href="#"><img src="/assets/img/maestro.png" alt="maestro" /></a></li>
                 </ul>
               </div> */}
             </div>

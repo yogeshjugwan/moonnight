@@ -2,15 +2,15 @@ import React from 'react'
 import Slider from "react-slick";
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
-import Upcoming from './Home_section/Upcoming';
-import About from './Home_section/About';
-import Categories from './Home_section/Categories';
-import Product from './Home_section/Product';
-import FunFactsArea from './Home_section/FunFactsArea';
-import Equipment from './Home_section/Equipment';
-import SaleProduct from './Home_section/SaleProduct';
-import Blog from './Home_section/Blog';
-import Clients from './Home_section/Clients';
+import Upcoming from './home_section/Upcoming';
+import About from './home_section/About';
+import Categories from './home_section/Categories';
+import Product from './home_section/Product';
+import FunFactsArea from './home_section/FunFactsArea';
+import Equipment from './home_section/Equipment';
+import SaleProduct from './home_section/SaleProduct';
+import Blog from './home_section/Blog';
+import Clients from './home_section/Clients';
 const Home = () => {
     const homeSlider = [
         {

@@ -6,37 +6,37 @@ const Upcoming = () => {
   const upcomingData=[
     {
         "title":"December 03, 2021 One",
-        "img":"assets/img/upcoming-bike-1.jpg",
+        "img":"/assets/img/upcoming-bike-1.jpg",
         "discription":"Diamondback Bicycles Trace Dual Sport Bike"
     },
     {
         "title":"December 03, 2021 two",
-        "img":"assets/img/upcoming-bike-2.jpg",
+        "img":"/assets/img/upcoming-bike-2.jpg",
         "discription":"Diamondback Bicycles Trace Dual Sport Bike"
     },
     {
         "title":"December 03, 2021 three",
-        "img":"assets/img/upcoming-bike-3.jpg",
+        "img":"/assets/img/upcoming-bike-3.jpg",
         "discription":"Diamondback Bicycles Trace Dual Sport Bike"
     },
     {
         "title":"December 03, 2021 four",
-        "img":"assets/img/upcoming-bike-4.jpg",
+        "img":"/assets/img/upcoming-bike-4.jpg",
         "discription":"Diamondback Bicycles Trace Dual Sport Bike"
     },
     {
         "title":"December 03, 2021 five",
-        "img":"assets/img/upcoming-bike-5.jpg",
+        "img":"/assets/img/upcoming-bike-5.jpg",
         "discription":"Diamondback Bicycles Trace Dual Sport Bike"
     },
     {
         "title":"December 03, 2021 six",
-        "img":"assets/img/upcoming-bike-6.jpg",
+        "img":"/assets/img/upcoming-bike-6.jpg",
         "discription":"Diamondback Bicycles Trace Dual Sport Bike"
     },
     {
         "title":"December 03, 2021 seven",
-        "img":"assets/img/upcoming-bike-1.jpg",
+        "img":"/assets/img/upcoming-bike-1.jpg",
         "discription":"Diamondback Bicycles Trace Dual Sport Bike"
     },
 ]

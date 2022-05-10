@@ -62,7 +62,7 @@ const Contact = () => {
                   </div>
                   <div className="col-lg-6 col-md-6">
                     <ul>
-                      <li><Link href="/"><a><i className="fa fa-home" /> Home</a></Link></li>
+                      <li><Link scroll={false} href="/"><a><i className="fa fa-home" /> Home</a></Link></li>
                       <li><i className="fa fa-angle-right" /></li>
                       <li className="active">Contact Us</li>
                     </ul>

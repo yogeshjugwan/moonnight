@@ -47,21 +47,21 @@ const SaleProduct = () => {
     {
       title:"Deal of the day!",
       name:" 2021 Marin Four Corners Touring Disc Road Bike",
-      image:"assets/img/deal-day.png",
+      image:"/assets/img/deal-day.png",
       actualPrice:"$1000.00",
       price:"$850.00"
     },
     {
       title:"Deal of the day!",
       name:" 2021 Marin Four Corners Touring Disc Road Bike",
-      image:"assets/img/best-seller.png",
+      image:"/assets/img/best-seller.png",
       actualPrice:"$1000.00",
       price:"$850.00"
     },
     {
       title:"Deal of the day!",
       name:" 2021 Marin Four Corners Touring Disc Road Bike",
-      image:"assets/img/top-seller.png",
+      image:"/assets/img/top-seller.png",
       actualPrice:"$1000.00",
       price:"$850.00"
     },
@@ -82,7 +82,7 @@ const SaleProduct = () => {
                         <div className="sale-product-content">
                           <h3>{data.title}</h3>
                           <h4>
-                            <Link  href="/products"><a>
+                            <Link scroll={false}  href="/products"><a>
                              {data.name}
                             </a></Link>
                           </h4>
@@ -91,7 +91,7 @@ const SaleProduct = () => {
                               <span>{data.actualPrice}</span>{data.price}
                             </p>
                           </div>
-                          <Link href="/products">
+                          <Link scroll={false} href="/products" as="/products">
                             <a className="btn btn-primary">Shop Now</a>
                           </Link>
                         </div>
