@@ -3,7 +3,7 @@
      {
         "id": 0,
         "title": "Quick View 0",
-        "img": "/assets/img/new-product2.jpg",
+        "img": "https://cdn.pixabay.com/photo/2013/07/13/13/46/bicycle-161524_1280.png",
         "discount": "20%",
         "name": " Polygon Bend RV - Gravel / Cyclocross Disc Bike 0",
         "pricemini": "$1020.00",
