@@ -2,13 +2,13 @@
   "products": [
      {
         "id": 0,
-        "title": "Quick View 0",
+        "title": "Road bikes",
         "img": "https://cdn.pixabay.com/photo/2013/07/13/13/46/bicycle-161524_1280.png",
         "discount": "20%",
-        "name": " Polygon Bend RV - Gravel / Cyclocross Disc Bike 0",
-        "pricemini": "$1020.00",
-        "pricemax": "$901.00",
-        "description": "Also created at Wyncode Academy, FurEver is a petfinding app built with React and Express JS, which utilizes Petfinder's O-Auth API. FurEver is designed to help match adoptable pets with forever homes in a fun, user-friendly interface."
+        "name": " Hero Cycles",
+        "pricemini": "4999.00",
+        "pricemax": "6999.00",
+        "description": "bicycle, also called bike, two-wheeled steerable machine that is pedaled by the rider's feet. On a standard bicycle the wheels are mounted in-line in a metal frame, with the front wheel held in a rotatable fork. The rider sits on a saddle and steers by leaning and turning handlebars that are attached to the fork"
     },
     {
         "id": 1,
